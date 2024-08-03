@@ -42,6 +42,10 @@ Starting on the second week, I would start lecturing using the lecture notes tem
 
 Every week, there was a recitation lead by a teaching assistant. During these recitations, the students were asked to work on the exercises. I also asked the teaching assistant to take attendance. I used this to give extra points to students with a good attendance rate. At the end of the recitation, we released the homework assignment on the LMS which was due for the next Monday. To see the homework, check out the Homework file in this repository. Unfortunately, there are not on the course website.
 
+There were two common midterms and one common final. The final exam questions were on all the material covered during the semester. So, it is a very demanding exam for the students and providing all the ressources they need to succeed is very important. You should get in contact with Curly (ask around, and they will tell you) for helping organizing the MathJam!
+
+Also, after presenting Newton's method, I like to show the following [video](https://www.youtube.com/watch?v=-RdOwhmqP5s) from 3Blue1Brown. I really like this video because it shows students that mathematics is not just about methodic calculations, but can be related to art. A whole lecture is usually dedicated to that video. I also take the opportunity to explain what is a complex number so they can understand more easily what's in the video.
+
 I hope this will help you plan you class. 
 
 # Final remarks
