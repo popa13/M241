@@ -47,6 +47,10 @@ I hope this will help you plan you class.
 # Final remarks
 All the pictures used in the lecture notes are from the main textbook used at UH Manoa *Calculus* by James Stuart. 
 
+If you want to download all the files from this repository as a .zip on your computer, follow the steps illustrated in the picutre below.
+
+![Step to download file](How-To-Download_as-Zipped.png)
+
 # Contat Info
 You can reach me by email parisepierreolivier@gmail.com if you have any questions or if you would like to add your own contributions.
 Best of luck!
