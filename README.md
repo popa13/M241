@@ -45,6 +45,9 @@ Every week, there was a recitation lead by a teaching assistant. During these re
 I hope this will help you plan you class. 
 
 # Final remarks
+All the pictures used in the lecture notes are from the main textbook used at UH Manoa *Calculus* by James Stuart. 
+
+# Contat Info
 You can reach me by email parisepierreolivier@gmail.com if you have any questions or if you would like to add your own contributions.
 Best of luck!
 
