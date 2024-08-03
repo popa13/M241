@@ -35,7 +35,16 @@ I won't explain more, just go read the text on that webpage. It will be selfexpl
 ## Final Prep
 The Final Prep webpage contains solutions to finals from previous years. I also shared the solutions to the Concept Checks from the textbook. 
 
+## How I taught the class
+I would start off the semester by handing out sections 1.1, 1.2, and 1.3 to the students. I will ask them to complete that on their own in class and ask them to submit their completed work for the first homework. 
+
+Starting on the second week, I would start lecturing using the lecture notes templates provided in the Lecture Notes webpage. The students were responsible of printing or downloading the lecture notes template from the course website. In class, I would have a wacom tablet connected to my laptop and I would fill in the lecture notes while I lecture. Those notes were projected with a projector, so that the students can see all my notes during lecture. 
+
+Every week, there would be a recitation lead by a teaching assistant. During these recitations, the students were asked to work on the exercises. I would also ask the teaching assistant to take attendance. I used this to give extra points to students with a good attendance rate. At the end of the recitation, we would release on the LMS the homework assignment due for next Monday. To see the homework, check out the Homework file in this repository.
+
+I hope this will help you plan you class. 
+
 # Final remarks
-You can reach me by email parisepierreolivier@gmail.com if you have any questions or would like to add your own contributions.
+You can reach me by email parisepierreolivier@gmail.com if you have any questions or if you would like to add your own contributions.
 Best of luck!
 
