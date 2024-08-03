@@ -40,7 +40,7 @@ I would start off the semester by handing out sections 1.1, 1.2, and 1.3 to the 
 
 Starting on the second week, I would start lecturing using the lecture notes templates provided in the Lecture Notes webpage. The students were responsible of printing or downloading the lecture notes template from the course website. In class, I would have a wacom tablet connected to my laptop and I would fill in the lecture notes while I lecture. Those notes were projected with a projector, so that the students can see all my notes during lecture. 
 
-Every week, there would be a recitation lead by a teaching assistant. During these recitations, the students were asked to work on the exercises. I would also ask the teaching assistant to take attendance. I used this to give extra points to students with a good attendance rate. At the end of the recitation, we would release on the LMS the homework assignment due for next Monday. To see the homework, check out the Homework file in this repository.
+Every week, there was a recitation lead by a teaching assistant. During these recitations, the students were asked to work on the exercises. I also asked the teaching assistant to take attendance. I used this to give extra points to students with a good attendance rate. At the end of the recitation, we released the homework assignment on the LMS which was due for the next Monday. To see the homework, check out the Homework file in this repository. Unfortunately, there are not on the course website.
 
 I hope this will help you plan you class. 
 
