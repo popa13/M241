@@ -1,0 +1,210 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{enumerate}
+\usepackage{breqn}
+\usepackage{parskip}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\DeclareMathOperator{\dom}{dom}
+
+\newcommand{\spc}{\vspace*{0.5cm}}
+\CorrectChoiceEmphasis{\color{red}}
+
+\begin{document}
+\noindent \hrulefill \\
+	MATH-241 Calculus I \hfill Created by Rukiyah Walker\\
+	Homework 14 \hfill Spring 2023\\ \vspace*{-1cm}
+ 
+	\noindent\hrulefill
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\begin{questions}
+
+\vspace*{0.5cm}
+
+\question[1]
+
+Evaluate the general indefinite integral:
+$\displaystyle \int \sqrt{x^5} \,dx$
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\frac{1}{6}x^6 + C$
+\choice $\frac{2}{3}x^{3/2} + C$
+\choice $\frac{5}{2}x^{2/5} + C$
+\CorrectChoice $\frac{2}{7}x^{7/2} + C$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Evaluate the definite integral: 
+$\displaystyle\int_{1}^{4} \sqrt{x^5} \,dx$
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice $\frac{254}{7}$
+\choice $\frac{1365}{2}$
+\choice -$\frac{1365}{2}$
+\choice $-\frac{254}{7}$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Evaluate $\displaystyle\int_{1}^{2} x^2 + 2x +3\,dx$
+
+\begin{multicols}{2}
+\begin{choices}
+\choice 2
+\CorrectChoice $\frac{25}{3}$
+\choice $\frac{22}{3}$
+\choice $\frac{2}{3}$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose you are given that $g(x) = \displaystyle\int_{x}^{0} 1 + t^2\,dt$. 
+
+How can you rewrite the above integral, so that you can use the Fundamental Theorem of Calculus part 1 to compute $g'(x)$?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice We can't use the theorem here.
+\choice $\int_{0}^{x} 1 + t^2\,dt$
+\CorrectChoice $-\int_{0}^{x} 1 + t^2\,dt$
+\choice $\int_{x}^{0} 1 + t^2\,dt = \frac{x^3}{3} + x$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+What does the Net Change Theorem mean in words?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice If $F(x) = \int_{a}^{b} f(x) \,dx$, then $\int_{a}^{b} f(x) \,dx$ is equal to $F(b) - F(a)$.
+\choice If $g'(x)$ is the antiderivative of $f(x)$, then $g'(x) = f(x)$.
+\CorrectChoice The integral of the rate of change is equal to the net change.
+\choice The integral of the net change in equal to the rate of change.
+\end{choices}
+\end{multicols}
+
+\newpage
+
+\question[1]
+
+When can you use the substitution rule?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice When The Fundamental Theorem of Calculus is not valid.
+\choice Only on a definite integral.
+\choice Only on an indefinite integral.
+\CorrectChoice When you have a function, $g(x)$, and its derivative, $g'(x)$ present in the integrand.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose you want to use $u$-substitution to evaluate, $\displaystyle \int 2x(x^2 + 2)^2\,dx$. Identify the function $u$.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $u = 2x$
+\CorrectChoice $u = x^2 + 2$
+\choice $u = (x^2 + 2)^2$
+\choice Cannot use $u$-substitution.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Rewrite the integral in question 7 after doing $u$-substitution.
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice $\int_{}^{} u^2\,du$
+\choice $\int_{}^{} u^2\,dx$
+\choice $\int_{}^{} 4x^2\,du$
+\choice $\int_{}^{} 4x^2\,dx$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Again, suppose you want to use $u$-substitution to evaluate, $\displaystyle \int (2x^3 + 1)^7(2x^2)\,dx$. Identify the function $u$.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice Cannot use $u$-substitution.
+\CorrectChoice $u = 2x^3 + 1$
+\choice $2x^2$
+\choice $u = (2x^3 + 1)^7$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Rewrite the integral in question 9 after doing $u$-substitution.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\int_{}^{} u^7\,du$
+\choice $\frac{1}{3}\int_{}^{} u^7\,dx$
+\choice $\int_{}^{} u^7(2x^2)\,du$
+\CorrectChoice $\frac{1}{3}\int_{}^{} u^7\,du$
+\end{choices}
+\end{multicols}
+
+\end{questions}
+\end{document}

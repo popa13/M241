@@ -1,0 +1,57 @@
+\include{../../semesterTerm.tex}
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Pierre-Olivier Paris{\'e}\\
+	Solutions Section 2-9 \hfill \semester \\\vspace*{-1cm}
+	
+	\noindent\hrulefill
+	
+	\spc
+
+	\exo{4}
+	\\
+	The linearization is given by
+		\begin{align*}
+		L (x) = f(3) + f'(3) (x - 3)  .
+		\end{align*}
+	We have 
+		\begin{align*}
+		f' (x) = \frac{-2x}{(x^2 - 5)^{3/2}} .
+		\end{align*}
+	Therefore, we have $f'(3) = \frac{-6}{8} = -\frac{3}{4}$. We also have $f(3) = 1$. Therefore, the linearization is
+		\begin{align*}
+		L (z) = 1 -\frac{3}{4} (x - 3)
+		\end{align*}	
+		
+	\spc
+	
+	\exo{24}
+	\\
+	We see that
+		\begin{align*}
+		4.002 = 4 + 0.002 .
+		\end{align*}		
+	Therefore, the value $0.002$ will by my $x$ in the linearization and suggest
+		\begin{align*}
+		f(x) = \frac{1}{x + 4} .
+		\end{align*}
+	We see that $f(0.002) = 1/4.002$. Therefore, a linear approximation of $f$ around $x = 0$ will be useful to approximation $1/4.002$. We have
+		\begin{align*}
+		f'(x) = - \frac{1}{(x + 4)^2} \quad \Ra \quad f' (0) = - \frac{1}{16} .
+		\end{align*}
+	Since $f(0) = 1/4$, we have
+		\begin{align*}
+		L (x) = 1/4 - \frac{x}{16} .
+		\end{align*}
+	Using the linearization of $f$, we find that
+		\begin{align*}
+		\frac{1}{4.002} = f(0.002) \approx L(0.002) = 0.25 - \frac{0.002}{16} = 0.25 - 0.000125 = 0.249875 .
+		\end{align*}
+	Therefore, we have
+		\begin{align*}
+		\frac{1}{4.002} \approx 0.249875 .
+		\end{align*}
+		
+	
+\end{document}

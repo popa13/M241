@@ -1,0 +1,61 @@
+\include{../../semesterTerm.tex}
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Pierre-Olivier Paris{\'e}\\
+	Solutions Section 4-1 \hfill \semester \\\vspace*{-1cm}
+	
+	\noindent\hrulefill
+	
+	\spc
+
+	\exo{4}
+	\begin{enumerate}
+	\item[a)] We have $n = 4$ and so $\Delta x = (\pi/2 - 0)/4 = \pi/8$. The sample points are
+		\begin{align*}
+		x_1 = \pi/8 , \, x_2 = \pi/4 , \, x_3 = 3\pi/8 , \, x_4 = \pi/2 .
+		\end{align*}
+	So, we obtain
+		\begin{align*}
+		A &\approx \sin (\pi/8) \Delta x + \sin (\pi/4) \Delta x + \sin (3\pi/8) \Delta x + \sin (\pi/2 ) \Delta x \\
+		& = (\pi/8) (\sin (\pi/8) + \sin (\pi/4) + \sin (3\pi/8) + \sin (\pi/2) ) \\
+		& \approx 1.18346 .
+		\end{align*}
+	Here is the graph of the function and the approximate squares. We see that we overestimated the area under the curve.
+		\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.3]{RiemannSums.png}
+		\end{figure}
+	
+	\item[b)] We have $n = 4$ and so $\Delta x = (\pi/2 - 0)/4 = \pi/8$. The sample points are
+		\begin{align*}
+		x_1 = 0, \, x_2 = \pi/8 , \, x_3 = \pi/4 , \, x_4 = 3\pi/8 .
+		\end{align*}
+	We then obtain
+		\begin{align*}
+		A &\approx \sin (0) \Delta x + \sin (\pi/8 ) \Delta x + \sin (\pi/4 ) \Delta x + \sin (3\pi/8 ) \Delta x \\
+		&= (\pi/8 ) (\sin (0) + \sin (\pi/8 ) + \sin (\pi/4 ) + \sin (3\pi/8 ) )  \approx 0.790766 .
+		\end{align*}
+	Here is the graph of the function and the approximate squares. 	We see that we overestimated the area under the curve.
+		\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.3]{Number4_41.png}
+		\end{figure}
+
+	\end{enumerate}
+	
+	\spc
+	
+	\exo{14 (except c))}
+	\begin{enumerate}
+	\item[a)] We have $t_1 = 0$, $t_2 = 10$, $t_3 = 20$, $t_4 = 30$, $t_5 = 40$, and $t_6 = 50$ as our sample points and $\Delta x = 10$. So, the distance is estimated by
+		\begin{align*}
+		10(182.9) + 10(168.0) + 10(106.6) + 10(99.8)+10(124.5)+10(176.1) \approx 8579.0 \text{ miles.}
+		\end{align*}
+	\item[b)] We have this time $t_1 = 10$, $t_2 = 20$, $t_3 = 30$, $t_4 = 40$, $t_5 = 50$, and $t_6 = 60$ as our sample points and $\Delta x = 10$. So, the distance is estimated by
+		\begin{align*}
+		10(168.0) + 10(106.6) + 10(99.8) + 10(124.5) + 10(176.1) + 10(175.6) \approx 8506.0 \text{ miles.}
+		\end{align*}
+	\end{enumerate}
+	
+\end{document}

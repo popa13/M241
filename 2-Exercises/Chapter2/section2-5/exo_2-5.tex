@@ -1,0 +1,72 @@
+\include{../../semesterTerm.tex}
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Pierre-Olivier Paris{\'e}\\
+	Solutions Section 2-5 \hfill \semester \\\vspace*{-1cm}
+	
+	\noindent\hrulefill
+	
+	\spc
+	
+	\exo{8}
+	\\
+	By the Chain Rule, we have
+		\begin{align*}
+		F'(x) = 99 (1 + x + x^2)^{98} (1 + 2x) = 99 (1 + 2x) (1 + x + x^2)^{98} .
+		\end{align*}
+	
+	\spc
+	
+	\exo{10}
+	\\
+	We have, by the chain rule,
+		\begin{align*}
+		g'(x) = \frac{3}{2} (2 - \sin x)^{1/2} (-\cos x) = -\frac{3 \cos x \sqrt{2 - \sin x}}{2} .
+		\end{align*}
+	
+	\spc
+	
+	\exo{11}
+	\\
+	The outer function is $f(t) = \frac{1}{t^2}$ and the inside function is $g(t) = \cos t + \tan t$. This implies that 
+		\begin{align*}
+		A (t) = f (g (t)) .
+		\end{align*} 
+	Using the Chain Rule, we have
+		\begin{align*}
+		A' (t) = f' (g (t)) g' (t) .
+		\end{align*}
+	Now, we have
+		\begin{align*}
+		f'(t) = (t^{-2})' = -2 t^{-3} = -\frac{2}{t^3} .
+		\end{align*}
+	Also, we have
+		\begin{align*}
+		g' (t) = -\sin t + \sec^2 t
+		\end{align*}
+	and therefore
+		\begin{align*}
+		A' (t) &= -\frac{2}{(\cos t + \tan t)^3} (-\sin t + \sec^2 t)  \\
+		&= - 2\frac{\sec^2 t - \sin t}{(\cos t + \tan t)^3} .
+		\end{align*}
+		
+	\spc
+	
+	\exo{30}
+	\\
+	We use the chaine rule and we get
+		\begin{align*}
+		ds/dt = \frac{1}{2} \Big( \frac{1 + \sin t}{1 + \cos t} \Big)^{-1/2} \frac{d}{dx} \Big( \frac{1 + \sin t}{1 + \cos t} \Big) .
+		\end{align*}
+	The derivative of $(1 +\sin t)/(1 + \cos t)$ is
+		\begin{align*}
+		\frac{\cos t (1 + \cos t) - (1 + \sin t) (-\sin t)}{(1 + \cos t)^2} = \frac{\cos t + \cos^2 t + \sin t + \sin^2 t}{(1 + \cos t)^2} = \frac{1 + \sin t + \cos t}{(1 + \cos t)^2} .
+		\end{align*}
+	Thus, the final answer looks like
+		\begin{align*}
+		ds/dt = \frac{1 + \sin t + \cos t}{2 (1 + \cos t)^{3/2} \sqrt{1 + \sin t}} .
+		\end{align*}
+	
+	
+\end{document}

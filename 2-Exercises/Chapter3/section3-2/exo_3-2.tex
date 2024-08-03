@@ -1,0 +1,66 @@
+\include{../../semesterTerm.tex}
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Pierre-Olivier Paris{\'e}\\
+	Solutions Section 3-2 \hfill \semester \\\vspace*{-1cm}
+	
+	\noindent\hrulefill
+	
+	\spc
+		
+	\exo{12}
+	\\
+	Since $f$ is a polynomial, then it is continuous and differentiable on $[-2, 2]$. Therefore, the hypothesis of the MVP are satisfied. We want to find all solutions $c$ to
+		\begin{align*}
+		f' (c) = \frac{f (2) - f(-2)}{2 - (-2)} = \frac{f(2) - f(-2)}{4} .
+		\end{align*}
+	
+	The derivative of $f$ is 
+		\begin{align*}
+		f'(x) = 3x^2 - 3 .
+		\end{align*}
+	Therefore, we look for numbers $c$ such that
+		\begin{align*}
+		3c^2 - 3 = \frac{4 - 0}{4} = 1 .
+		\end{align*}
+	So, $c$ should be a solution of
+		\begin{align*}
+		3c^2 = 4 \iff c = \pm \frac{2}{\sqrt{3}} .
+		\end{align*}
+	
+	The numbers that satisfy the Mean Value Theorem are $c = -2/\sqrt{3}$ and $c = 2/\sqrt{3}$. 
+	
+	\spc
+	
+	\exo{20}
+	\\
+	The function $f (x) = 2x - 1 - \sin x$ is continuous. It is also differentiable at every point. We can apply the IVT and the MVT.
+	
+	We first use the IVT to show that there is at least one root. We see that $f(0) = -1 < 0$ and $f(\pi ) = 2\pi - 1 > 0$. So, letting $N = 0$ in the IVT, we conclude that there is a number $c$ between $0$ and $\pi$ such that $f(c) = 0$. 
+	
+	We secondly use the MVT to show that there is only one root. The derivative of $f(x)$ is $f'(x) = 2 - \cos x$. If there were two roots to the equation $f(x) = 0$, call them $c_1$ and $c_2$, then $f(c_1) = f(c_2) = 0$ and from the MVT we conclude that there is a $\tilde{c}$ between $c_1$ and $c_2$ such that $f'(\tilde{c}) = 0$. But $f'(x) = 2 - \cos x > 0$ for any number $x$ because $-1 \leq \cos x \leq 1$. This is a contradiction. So, there must be only one root to the equation $f(x) = 0$.
+	
+	\spc
+	
+	\exo{30}
+	\\
+	Fix $b > 0$. An odd function on $[-b, b]$ means that $f(-x) = -f(x)$ for any $x$ in $[-b, b]$.
+	
+	Since $f$ is differentiable, from the Mean Value Theorem, there exists a $c$ in $(-b, b)$ such that
+		\begin{align*}
+		f'(c) = \frac{f(b) - f(-b)}{2b} .
+		\end{align*}
+	However, $f(-b) = -f(b)$ and therefore
+		\begin{align*}
+		 \frac{f(b) - f(-b)}{2b} = \frac{f(b) + f(b)}{2b} = \frac{f(b)}{b} .
+		\end{align*}
+	So, combining everything together, there exists a $c$ in $(-b, b)$ such that 
+		\begin{align*}
+		f'(c) = \frac{f(b)}{b} .
+		\end{align*}
+	This completes the proof.
+	
+	
+	
+\end{document}

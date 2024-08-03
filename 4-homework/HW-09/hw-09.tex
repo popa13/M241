@@ -1,0 +1,214 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{enumerate}
+\usepackage{breqn}
+\usepackage{parskip}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\DeclareMathOperator{\dom}{dom}
+
+\newcommand{\spc}{\vspace*{0.5cm}}
+\CorrectChoiceEmphasis{\color{red}}
+
+\begin{document}
+\noindent \hrulefill \\
+	MATH-241 Calculus I \hfill Created by Rukiyah Walker\\
+	Homework 9 \hfill Spring 2023\\ \vspace*{-1cm}
+ 
+	\noindent\hrulefill
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\begin{questions}
+
+\vspace*{0.5cm}
+
+\question[1]
+
+Fill in the blank: 
+
+If the graph of $f$ lies above all of its tangents on an interval $I$, it is called ____. 
+\newline If the graph of $f$ lies below all of its tangents on an interval $I$, it is called ____.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice An inflection point.
+\newline A non-inflection point.
+\choice Concave downward.
+\newline Concave upward.
+\CorrectChoice Concave upward.
+\newline Concave downward.
+\choice $f'$ exists.
+\newline $f''$ exists.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose we have a point $P$ on a curve $f(x)$. If $P$ is an inflection point, what does that mean for $f$?
+
+\begin{choices}
+\choice $f''$ is continuous.
+\CorrectChoice $f$ is continuous at $P$ and the curve changes from concave upward to concave downward (or concave downward to concave upward). 
+\choice $f'$ is continuous.
+\choice The graph of $f$ is concave upward.
+\end{choices}
+
+\spc
+
+\question[1]
+
+Suppose we have a function $f$. If the graph of $f$ is concave downward on some interval $I$, what does that tell us about $f''(x)$?
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice $f''(x) < 0$ for all $x$ in $I$.
+\choice $f'(x) > 0$ for all $x$ in $I$.
+\choice $f''(x) > 0$ for all $x$ in $I$.
+\choice $f'(x) < 0$ for all $x$ in $I$.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose $f''$ is continuous near $c$.
+Fill in the blank:
+
+If $f'(c) = 0$ and $f''(c) > 0$, then ____. If $f'(c) = 0$ and $f''(c) < 0$, then ____.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $f$ has an absolute minimum at $c$.
+\newline $f$ has an absolute maximum at $c$.
+\choice $f$ is concave upward.
+\newline $f$ is concave downward.
+\choice $f$ has a local maximum at $c$.
+\newline $f$ has a local minimum at $c$.
+\CorrectChoice $f$ has a local minimum at $c$.
+\newline $f$ has a local maximum at $c$.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+The concavity test only has cases where $f''(c) < 0$ and $f''(c) > 0$ for the graph $f$. What do you generally expect to happen if $f'(c) = 0$?
+
+\begin{choices}
+\choice Concave upward.
+\CorrectChoice There is an inflection point.
+\choice The second derivative does not exist.
+\choice Concave downward.
+\end{choices}
+
+\spc
+
+\question[1]
+
+$\lim_{x \to \infty} \frac{3x^2 -2}{x^2 + 1} = 3$. This means that the line $y = 3$ is a/an ____.
+
+\begin{choices}
+\choice Inflection point.
+\choice Local maximum.
+\choice Local minimum.
+\CorrectChoice Horizontal asymptote. 
+\end{choices}
+
+\spc
+
+\question[1]
+
+When will the function $f(x) = \frac{x^2 - 1}{2x-3}$ have a vertical asymptote?
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice at $x = 3/2$
+\choice at $x = 1$
+\choice at $x = \infty$
+\choice There is no vertical asymptote.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+What do the following statements all have in common?
+
+$\lim_{x \to -\infty} f(x) = \infty$, $\lim_{x \to -\infty} f(x) = -\infty$, $\lim_{x \to \infty} f(x) = -\infty$
+
+\begin{choices}
+\choice The limits do not exist.
+\CorrectChoice The values of $f(x)$ become arbitrarily large (positive or negative) as we let $x$ become arbitrarily large (positive or negative).
+\choice The limit is not defined since we will have complex numbers in the answer.
+\choice There is a horizontal asymptote at $y = 0$.
+\end{choices}
+
+\newpage
+
+\question[1]
+
+Let $f(x) = \frac{1}{x^r}$. When is $\lim_{x \to \infty} f(x)$ not defined?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice When $x \leq 0$.
+\choice When $x$ goes to $\infty$
+\choice When $x$ goes to $-\infty$.
+\CorrectChoice When $ r \leq 0$.
+\end{choices}
+\end{multicols}
+
+\question[1]
+
+Let $f(x) = 1 + \frac{1}{x} + \frac{1}{x^2} - \frac{2}{x^3} + \frac{3}{x^5}$. Evaluate $\lim_{x \to \infty} f(x)$.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\infty$
+\choice 8
+\CorrectChoice 1
+\choice $\nexists$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\end{questions}
+\end{document}

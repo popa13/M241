@@ -1,0 +1,263 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cF}{\mathcal{F}}
+
+\newcommand{\fK}{\mathfrak{K}}
+\newcommand{\fM}{\mathfrak{M}}
+
+\newcommand{\ga}{\left\langle}
+\newcommand{\da}{\right\rangle}
+\newcommand{\oa}{\left\lbrace}
+\newcommand{\fa}{\right\rbrace}
+\newcommand{\oc}{\left[}
+\newcommand{\fc}{\right]}
+\newcommand{\op}{\left(}
+\newcommand{\fp}{\right)}
+
+\newcommand{\ra}{\rightarrow}
+\newcommand{\Ra}{\Rightarrow}
+
+\renewcommand{\Re}{\mathrm{Re}\,}
+\renewcommand{\Im}{\mathrm{Im}\,}
+\newcommand{\Arg}{\mathrm{Arg}\,}
+\newcommand{\Arctan}{\mathrm{Arctan}\,}
+\newcommand{\sech}{\mathrm{sech}\,}
+\newcommand{\csch}{\mathrm{csch}\,}
+\newcommand{\Log}{\mathrm{Log}\,}
+\newcommand{\cis}{\mathrm{cis}\,}
+
+\newcommand{\ran}{\mathrm{ran}\,}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\Sp}{\mathrm{span}\,}
+\newcommand{\Inv}{\mathrm{Inv}\,}
+\newcommand\smallO{
+  \mathchoice
+    {{\scriptstyle\mathcal{O}}}% \displaystyle
+    {{\scriptstyle\mathcal{O}}}% \textstyle
+    {{\scriptscriptstyle\mathcal{O}}}% \scriptstyle
+    {\scalebox{.7}{$\scriptscriptstyle\mathcal{O}$}}%\scriptscriptstyle
+  }
+\newcommand{\HOL}{\mathrm{Hol}}
+\newcommand{\cl}{\mathrm{clos}}
+\newcommand{\ve}{\varepsilon}
+
+\DeclareMathOperator{\dom}{dom}
+
+%%%%%% Définitions Theorems and al.
+%\declaretheoremstyle[preheadhook = {\vskip0.2cm}, mdframed = {linewidth = 2pt, backgroundcolor = yellow}]{myThmstyle}
+%\declaretheoremstyle[preheadhook = {\vskip0.2cm}, postfoothook = {\vskip0.2cm}, mdframed = {linewidth = 1.5pt, backgroundcolor=green}]{myDefstyle}
+%\declaretheoremstyle[bodyfont = \normalfont , spaceabove = 0.1cm , spacebelow = 0.25cm, qed = $\blacktriangle$]{myRemstyle}
+
+%\declaretheorem[ style = myThmstyle, name=Th\'eor\`eme]{theorem}
+%\declaretheorem[style =myThmstyle, name=Proposition]{proposition}
+%\declaretheorem[style = myThmstyle, name = Corollaire]{corollary}
+%\declaretheorem[style = myThmstyle, name = Lemme]{lemma}
+%\declaretheorem[style = myThmstyle, name = Conjecture]{conjecture}
+
+%\declaretheorem[style = myDefstyle, name = D\'efinition]{definition}
+
+%\declaretheorem[style = myRemstyle, name = Remarque]{remark}
+%\declaretheorem[style = myRemstyle, name = Remarques]{remarks}
+
+\newtheorem{theorem}{Théorème}
+\newtheorem{corollary}{Corollaire}
+\newtheorem{lemma}{Lemme}
+\newtheorem{proposition}{Proposition}
+\newtheorem{conjecture}{Conjecture}
+
+\theoremstyle{definition}
+
+\newtheorem{definition}{Définition}[section]
+\newtheorem{example}{Exemple}[section]
+\newtheorem{remark}{\textcolor{red}{Remarque}}[section]
+\newtheorem{exer}{\textbf{Exercice}}[section]
+
+\newcommand{\spc}{\vspace*{0.5cm}}
+\CorrectChoiceEmphasis{\color{red}}
+
+\tikzstyle{myboxT} = [draw=black, fill=black!0,line width = 1pt,
+    rectangle, rounded corners = 0pt, inner sep=8pt, inner ysep=8pt]
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 Calculus I \hfill Created by Pierre-O. Paris{\'e}\\
+	Sample Homework \hfill Spring 2023\\\vspace*{-0.7cm}
+	
+	\noindent\hrulefill
+	
+\vspace*{0.5cm}
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\begin{questions}
+
+\question[1]
+What is the name of your instructor?
+	
+\begin{oneparchoices}
+\choice Armel Paris{\'e}
+
+\CorrectChoice Pierre-Olivier Paris{\'e}
+
+\choice Arnold Paris{\'e}
+
+\choice Rukiyah Walker
+\end{oneparchoices}
+
+\spc
+
+\question[1]
+What is the name of your Teaching Assistant?
+
+\begin{oneparchoices}
+\choice Pierre-Olivier Paris{\'e}
+\choice Sydney Fields
+\CorrectChoice Rukiyah Walker
+\choice Sara Dewhurst
+\end{oneparchoices}
+
+\spc
+
+\question[1]
+On which days do we meet for the lecture?
+
+\begin{choices}
+\begin{multicols}{2}
+\choice Mondays
+\choice Mondays and Thursdays
+\CorrectChoice Tuesdays and Thursdays
+\choice Tuesdays and Wednesdays
+\end{multicols}
+\end{choices}
+
+\spc
+
+\question[1]
+At what time are the lectures?
+
+\begin{choices}
+\begin{multicols}{2}
+\choice 9:00pm to 10:15pm
+\CorrectChoice 9:00am to 10:15am
+\choice 10:30am--11:20am
+\choice 4:00pm to 5:15pm
+\end{multicols}
+\end{choices}
+
+\spc
+
+\question[1]
+On which day are the recitations?
+
+\begin{oneparchoices}
+\CorrectChoice Fridays
+\choice Tuesdays
+\choice Wednesdays
+\choice Sundays
+\end{oneparchoices}
+
+\spc
+
+\question[1]
+Which textbook do you need for this class?
+
+\begin{choices}
+\CorrectChoice Calculus, 8th Edition, by Stewart
+\choice The love of my life, by anonymous writer
+\choice Harry Potter and the Sorcerer Stone, by J.K. Rowling
+\choice The man who new infinity, by Robert Kanigel.
+\end{choices}
+
+\newpage
+
+\question[1]
+What are the date and time of the Midterm 1?
+
+\begin{choices}
+\CorrectChoice February, 22nd, 6:00pm--7:15pm
+\choice February, 21st, 6:00pm--7:15pm
+\choice April, 20th, 6:00am--7:15am
+\choice January, 8th, 6:00am--7:15am
+\end{choices}
+
+\spc
+
+\question[1]
+What are the date and time of the Midterm 2?
+
+\begin{choices}
+\choice March, 15th, 6:00pm--7:15pm
+\choice February, 21st, 6:00pm--7:15pm
+\CorrectChoice April, 12th, 6:00pm--7:15pm
+\choice January, 8th, 6:00am--7:15am
+\end{choices}
+
+\spc
+
+\question[1]
+What are the date and time of the Final?
+
+\begin{choices}
+\choice March, 15th, 6:00pm--7:15pm
+\choice February, 21st, 6:00pm--7:15pm
+\CorrectChoice May, 10th, 12:00pm--2:00pm
+\choice January, 8th, 6:00am--7:15am
+\end{choices}
+
+\spc
+
+\question[1]
+How many homework will be used to calculate the final average?
+
+\begin{oneparchoices}
+\choice 5
+\CorrectChoice 12
+\choice 10
+\choice 15
+\end{oneparchoices}
+	
+\end{questions}
+
+\end{document}

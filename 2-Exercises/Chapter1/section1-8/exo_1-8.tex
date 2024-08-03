@@ -1,0 +1,54 @@
+\include{../../semesterTerm.tex}
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Pierre-Olivier Paris{\'e}\\
+	Solutions Section 1-8 \hfill \semester \\\vspace*{-1cm}
+	
+	\noindent\hrulefill
+	
+	\spc
+	
+	\exo{18}
+	\\
+	As $x \ra -2^-$, we have $f(x) \ra -\infty$ and as $x \ra -2^+$, we have $f(x) \ra \infty$. So we have an infinite discontinuity. 
+	
+	\spc
+	
+	\exo{36}
+	\\
+	The function $x + \sin x$ is continuous because it is the sum of two continuous functions. Now, $\sin x$ is continuous and therefore the composition $\sin (x + \sin x )$ is continuous. In particular, the function $x \mapsto \sin (x + \sin x)$ is continuous at $x = \pi$. Using the continuity, this means that
+		\begin{align*}
+		\lim_{x \ra \pi} \sin (x + \sin x ) = \sin (\pi + \sin \pi ) = \sin (\pi + 0) = 0 .
+		\end{align*}
+		
+	\spc
+	
+	\exo{56}
+	\\
+	Let $f(x) = \sin x - x^2 + x$. We have $a = 1$ and $b = 2$. 
+	
+	We will verify if the hypothesis of the Intermediate Value Theorem are verified. 
+		\begin{itemize}
+		\item The function $f$ is a sum of continuous function on all of $(-\infty , \infty )$, therefore $f$ is continuous on all of $(-\infty , \infty )$. In particular, the function $f$ is continuous on $(1, 2)$.
+		\item $f(1) = \sin (1) - 1^2 + 1 = \sin (1) > 0$ because for any $0 < x < \pi$, we have $\sin (x ) > 0$.
+		\item $f(2) = \sin (2) - 4 + 2 = \sin (2) - 2 < 0$ because $\sin (1) < 1 < 2$.
+		\end{itemize}
+	All the hypothesis of the IVP are satisfied. We therefore conclude that there is some $c$, between $1$ and $2$, such that $f(c) = 0$. This means that
+		\begin{align*}
+		\sin (c) - c^2 + c = 0 \quad \iff \quad \sin (c) = c^2 - c
+		\end{align*}
+	for some $c$ such that $1 < c < 2$. 
+	
+	\spc
+	
+	\exo{58 (a)} 
+	\\
+	We have $f(0) = 3$ and $f(-1) = -1 - 1 - 2 + 3 = -1$. So, we have $f(-1) < 0$ and $f(0) > 0$. So, by the intermediate Theorem, with $N = 0$, there is a number $c \in (-1, 0)$ such that $f(c) = 0$.
+	
+	
+\end{document}
+	
+	
+	
+	

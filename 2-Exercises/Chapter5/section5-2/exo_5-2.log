@@ -1,0 +1,2310 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.14)  26 DEC 2022 13:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**exo_5-2.tex
+(./exo_5-2.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 1.
+
+(../../semesterTerm.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks18
+\labelindent=\skip49
+\enit@outerparindent=\dimen139
+\enit@toks=\toks19
+\enit@inbox=\box50
+\enit@count@id=\count193
+\enitdp@description=\count194
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen148
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen150
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks23
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks24
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks25
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box53
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen161
+\pgf@y=\dimen162
+\pgf@xa=\dimen163
+\pgf@ya=\dimen164
+\pgf@xb=\dimen165
+\pgf@yb=\dimen166
+\pgf@xc=\dimen167
+\pgf@yc=\dimen168
+\pgf@xd=\dimen169
+\pgf@yd=\dimen170
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count276
+\c@pgf@countb=\count277
+\c@pgf@countc=\count278
+\c@pgf@countd=\count279
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count280
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count281
+\pgfsyssoftpath@bigbuffer@items=\count282
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count283
+\pgfmath@box=\box54
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count284
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count285
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count286
+\pgf@shadingcount=\count287
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box58
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box59
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count288
+\pgfplotmarksize=\dimen256
+)
+\tikz@lastx=\dimen257
+\tikz@lasty=\dimen258
+\tikz@lastxsaved=\dimen259
+\tikz@lastysaved=\dimen260
+\tikz@lastmovetox=\dimen261
+\tikz@lastmovetoy=\dimen262
+\tikzleveldistance=\dimen263
+\tikzsiblingdistance=\dimen264
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count289
+\tikznumberofchildren=\count290
+\tikznumberofcurrentchild=\count291
+\tikz@fig@count=\count292
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count293
+\pgfmatrixcurrentcolumn=\count294
+\pgf@matrix@numberofcolumns=\count295
+)
+\tikz@expandcount=\count296
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks39
+\t@pgfplots@tokb=\toks40
+\t@pgfplots@tokc=\toks41
+\pgfplots@tmpa=\dimen265
+\c@pgfplots@coordindex=\count297
+\c@pgfplots@scanlineindex=\count298
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count299
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count300
+\t@pgfplotstable@a=\toks42
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count301
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen266
+\pgfdecoratedremainingdistance=\dimen267
+\pgfdecoratedinputsegmentcompleteddistance=\dimen268
+\pgfdecoratedinputsegmentremainingdistance=\dimen269
+\pgf@decorate@distancetomove=\dimen270
+\pgf@decorate@repeatstate=\count302
+\pgfdecorationsegmentamplitude=\dimen271
+\pgfdecorationsegmentlength=\dimen272
+)
+\tikz@lib@dec@box=\box64
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
+ntourlua.code.tex)
+\pgfplots@numplots=\count303
+\pgfplots@xmin@reg=\dimen273
+\pgfplots@xmax@reg=\dimen274
+\pgfplots@ymin@reg=\dimen275
+\pgfplots@ymax@reg=\dimen276
+\pgfplots@zmin@reg=\dimen277
+\pgfplots@zmax@reg=\dimen278
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count304
+\mult@box=\box65
+\multicol@leftmargin=\dimen279
+\c@unbalance=\count305
+\c@collectmore=\count306
+\doublecol@number=\count307
+\multicoltolerance=\count308
+\multicolpretolerance=\count309
+\full@width=\dimen280
+\page@free=\dimen281
+\premulticols=\dimen282
+\postmulticols=\dimen283
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box66
+\last@line=\box67
+\maxbalancingoverflow=\dimen284
+\mult@rightbox=\box68
+\mult@grightbox=\box69
+\mult@firstbox=\box70
+\mult@gfirstbox=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\c@minrows=\count310
+\c@columnbadness=\count311
+\c@finalcolumnbadness=\count312
+\last@try=\dimen285
+\multicolovershoot=\dimen286
+\multicolundershoot=\dimen287
+\mult@nat@firstbox=\box108
+\colbreak@box=\box109
+\mc@col@check@num=\count313
+)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count314
+\calc@Bcount=\count315
+\calc@Adimen=\dimen288
+\calc@Bdimen=\dimen289
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count316
+\calc@Cskip=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen290
+\captionmargin@=\dimen291
+\captionwidth=\dimen292
+\caption@tempdima=\dimen293
+\caption@indent=\dimen294
+\caption@parindent=\dimen295
+\caption@hangindent=\dimen296
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count317
+\c@continuedfloat=\count318
+)
+\c@subfigure=\count319
+\c@subtable=\count320
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count321
+))
+(/usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2022/01/31 PDF & SVG animations from files and inline graphics
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
+)
+\XKV@depth=\count322
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count323
+Package zref Info: New property: abspage on input line 66.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count324
+\l__pdf_internal_box=\box110
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: pdfbase 2021/09/12 v0.53 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count325
+\g_pbs_oc_int=\count326
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count327
+)
+\@anim@box=\box111
+\@anim@measbox=\box112
+\@anim@tmpdima=\dimen297
+\@anim@tmpdimb=\dimen298
+\@anim@num=\count328
+\@anim@curframe=\count329
+\@anim@curframe@zb=\count330
+\@anim@resizeflags=\count331
+\@anim@skipfram=\count332
+\@anim@mulframecnt=\count333
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count334
+\c@@anim@ltxcnt=\count335
+\@anim@curlayer=\count336
+\@anim@lineno=\count337
+\@anim@curfield=\count338
+\@anim@@resizeflags=\count339
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen299
+\ar@mcellbox=\box113
+\extrarowheight=\dimen300
+\NC@list=\toks45
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/blkarray/blkarray.sty
+Package: blkarray 2015/02/27 v0.07 Block array (dpc)
+\c@BAenumi=\count340
+\BA@col=\count341
+\BA@block@cnt=\count342
+\BA@final@box=\box115
+\BA@first@box=\box116
+\BA@colsep=\dimen301
+\BA@ftn=\toks46
+\BAextrarowheight=\dimen302
+\BAextraheightafterhline=\dimen303
+\BAarrayrulewidth=\dimen304
+\BAdoublerulesep=\dimen305
+\BAfootskip=\dimen306
+\BA@dashbox=\box117
+\BA@ddashbox=\box118
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen307
+\lightrulewidth=\dimen308
+\cmidrulewidth=\dimen309
+\belowrulesep=\dimen310
+\belowbottomsep=\dimen311
+\aboverulesep=\dimen312
+\abovetopsep=\dimen313
+\cmidrulesep=\dimen314
+\cmidrulekern=\dimen315
+\defaultaddspace=\dimen316
+\@cmidla=\count343
+\@cmidlb=\count344
+\@aboverulesep=\dimen317
+\@belowrulesep=\dimen318
+\@thisruleclass=\count345
+\@lastruleclass=\count346
+\@thisrulewidth=\dimen319
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/bigstrut.sty
+Package: bigstrut 2021/03/15 v2.8 Provide larger struts in tabulars
+\bigstrutjot=\dimen320
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bigints/bigints.sty
+Package: bigints 2010/02/15 Writing big integrals
+Package bigints Info: This is Bigints by Merciadri Luca. on input line 5.
+))
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (./exo_5-2.aux)
+\openout1 = `exo_5-2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count347
+\scratchdimen=\dimen321
+\scratchbox=\box119
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen322
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+4.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+14.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+14.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+<fig3.png, id=4, 1016.79875pt x 548.0475pt>
+File: fig3.png Graphic file (type png)
+<use fig3.png>
+Package pdftex.def Info: fig3.png  used on input line 16.
+(pdftex.def)             Requested size: 305.04198pt x 164.41551pt.
+<fig4.png, id=6, 1244.65pt x 724.7075pt>
+File: fig4.png Graphic file (type png)
+<use fig4.png>
+Package pdftex.def Info: fig4.png  used on input line 22.
+(pdftex.def)             Requested size: 373.39787pt x 217.41393pt.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./fig3.png> <./fig4.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 38.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 38.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 38.
+<exo8_52.png, id=21, 620.3175pt x 880.28876pt>
+File: exo8_52.png Graphic file (type png)
+<use exo8_52.png>
+Package pdftex.def Info: exo8_52.png  used on input line 42.
+(pdftex.def)             Requested size: 186.09668pt x 264.08865pt.
+<python/Revolution0.png, id=22, 462.528pt x 346.896pt>
+File: python/Revolution0.png Graphic file (type png)
+<use python/Revolution0.png>
+Package pdftex.def Info: python/Revolution0.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution0.png> <a0,fr0>
+<python/Revolution1.png, id=26, 462.528pt x 346.896pt>
+File: python/Revolution1.png Graphic file (type png)
+<use python/Revolution1.png>
+Package pdftex.def Info: python/Revolution1.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution1.png> <a0,fr1>
+<python/Revolution2.png, id=30, 462.528pt x 346.896pt>
+File: python/Revolution2.png Graphic file (type png)
+<use python/Revolution2.png>
+Package pdftex.def Info: python/Revolution2.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution2.png> <a0,fr2>
+<python/Revolution3.png, id=34, 462.528pt x 346.896pt>
+File: python/Revolution3.png Graphic file (type png)
+<use python/Revolution3.png>
+Package pdftex.def Info: python/Revolution3.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution3.png> <a0,fr3>
+<python/Revolution4.png, id=38, 462.528pt x 346.896pt>
+File: python/Revolution4.png Graphic file (type png)
+<use python/Revolution4.png>
+Package pdftex.def Info: python/Revolution4.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution4.png> <a0,fr4>
+<python/Revolution5.png, id=42, 462.528pt x 346.896pt>
+File: python/Revolution5.png Graphic file (type png)
+<use python/Revolution5.png>
+Package pdftex.def Info: python/Revolution5.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution5.png> <a0,fr5>
+<python/Revolution6.png, id=46, 462.528pt x 346.896pt>
+File: python/Revolution6.png Graphic file (type png)
+<use python/Revolution6.png>
+Package pdftex.def Info: python/Revolution6.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution6.png> <a0,fr6>
+<python/Revolution7.png, id=50, 462.528pt x 346.896pt>
+File: python/Revolution7.png Graphic file (type png)
+<use python/Revolution7.png>
+Package pdftex.def Info: python/Revolution7.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution7.png> <a0,fr7>
+<python/Revolution8.png, id=54, 462.528pt x 346.896pt>
+File: python/Revolution8.png Graphic file (type png)
+<use python/Revolution8.png>
+Package pdftex.def Info: python/Revolution8.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution8.png> <a0,fr8>
+<python/Revolution9.png, id=58, 462.528pt x 346.896pt>
+File: python/Revolution9.png Graphic file (type png)
+<use python/Revolution9.png>
+Package pdftex.def Info: python/Revolution9.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution9.png> <a0,fr9>
+<python/Revolution10.png, id=62, 462.528pt x 346.896pt>
+File: python/Revolution10.png Graphic file (type png)
+<use python/Revolution10.png>
+Package pdftex.def Info: python/Revolution10.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution10.png>
+<a0,fr10>
+<python/Revolution11.png, id=66, 462.528pt x 346.896pt>
+File: python/Revolution11.png Graphic file (type png)
+<use python/Revolution11.png>
+Package pdftex.def Info: python/Revolution11.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution11.png> <a0,fr11>
+<python/Revolution12.png, id=70, 462.528pt x 346.896pt>
+File: python/Revolution12.png Graphic file (type png)
+<use python/Revolution12.png>
+Package pdftex.def Info: python/Revolution12.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution12.png>
+<a0,fr12>
+<python/Revolution13.png, id=74, 462.528pt x 346.896pt>
+File: python/Revolution13.png Graphic file (type png)
+<use python/Revolution13.png>
+Package pdftex.def Info: python/Revolution13.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution13.png> <a0,fr13>
+<python/Revolution14.png, id=78, 462.528pt x 346.896pt>
+File: python/Revolution14.png Graphic file (type png)
+<use python/Revolution14.png>
+Package pdftex.def Info: python/Revolution14.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution14.png>
+<a0,fr14>
+<python/Revolution15.png, id=82, 462.528pt x 346.896pt>
+File: python/Revolution15.png Graphic file (type png)
+<use python/Revolution15.png>
+Package pdftex.def Info: python/Revolution15.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution15.png> <a0,fr15>
+<python/Revolution16.png, id=86, 462.528pt x 346.896pt>
+File: python/Revolution16.png Graphic file (type png)
+<use python/Revolution16.png>
+Package pdftex.def Info: python/Revolution16.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution16.png>
+<a0,fr16>
+<python/Revolution17.png, id=90, 462.528pt x 346.896pt>
+File: python/Revolution17.png Graphic file (type png)
+<use python/Revolution17.png>
+Package pdftex.def Info: python/Revolution17.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution17.png> <a0,fr17>
+<python/Revolution18.png, id=94, 462.528pt x 346.896pt>
+File: python/Revolution18.png Graphic file (type png)
+<use python/Revolution18.png>
+Package pdftex.def Info: python/Revolution18.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution18.png>
+<a0,fr18>
+<python/Revolution19.png, id=98, 462.528pt x 346.896pt>
+File: python/Revolution19.png Graphic file (type png)
+<use python/Revolution19.png>
+Package pdftex.def Info: python/Revolution19.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution19.png> <a0,fr19>
+<python/Revolution20.png, id=102, 462.528pt x 346.896pt>
+File: python/Revolution20.png Graphic file (type png)
+<use python/Revolution20.png>
+Package pdftex.def Info: python/Revolution20.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution20.png>
+<a0,fr20>
+<python/Revolution21.png, id=106, 462.528pt x 346.896pt>
+File: python/Revolution21.png Graphic file (type png)
+<use python/Revolution21.png>
+Package pdftex.def Info: python/Revolution21.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution21.png> <a0,fr21>
+<python/Revolution22.png, id=110, 462.528pt x 346.896pt>
+File: python/Revolution22.png Graphic file (type png)
+<use python/Revolution22.png>
+Package pdftex.def Info: python/Revolution22.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution22.png>
+<a0,fr22>
+<python/Revolution23.png, id=114, 462.528pt x 346.896pt>
+File: python/Revolution23.png Graphic file (type png)
+<use python/Revolution23.png>
+Package pdftex.def Info: python/Revolution23.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution23.png> <a0,fr23>
+<python/Revolution24.png, id=118, 462.528pt x 346.896pt>
+File: python/Revolution24.png Graphic file (type png)
+<use python/Revolution24.png>
+Package pdftex.def Info: python/Revolution24.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution24.png>
+<a0,fr24>
+<python/Revolution25.png, id=122, 462.528pt x 346.896pt>
+File: python/Revolution25.png Graphic file (type png)
+<use python/Revolution25.png>
+Package pdftex.def Info: python/Revolution25.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution25.png> <a0,fr25>
+<python/Revolution26.png, id=126, 462.528pt x 346.896pt>
+File: python/Revolution26.png Graphic file (type png)
+<use python/Revolution26.png>
+Package pdftex.def Info: python/Revolution26.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution26.png>
+<a0,fr26>
+<python/Revolution27.png, id=130, 462.528pt x 346.896pt>
+File: python/Revolution27.png Graphic file (type png)
+<use python/Revolution27.png>
+Package pdftex.def Info: python/Revolution27.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution27.png> <a0,fr27>
+<python/Revolution28.png, id=134, 462.528pt x 346.896pt>
+File: python/Revolution28.png Graphic file (type png)
+<use python/Revolution28.png>
+Package pdftex.def Info: python/Revolution28.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution28.png>
+<a0,fr28>
+<python/Revolution29.png, id=138, 462.528pt x 346.896pt>
+File: python/Revolution29.png Graphic file (type png)
+<use python/Revolution29.png>
+Package pdftex.def Info: python/Revolution29.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution29.png> <a0,fr29>
+<python/Revolution30.png, id=142, 462.528pt x 346.896pt>
+File: python/Revolution30.png Graphic file (type png)
+<use python/Revolution30.png>
+Package pdftex.def Info: python/Revolution30.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution30.png>
+<a0,fr30>
+<python/Revolution31.png, id=146, 462.528pt x 346.896pt>
+File: python/Revolution31.png Graphic file (type png)
+<use python/Revolution31.png>
+Package pdftex.def Info: python/Revolution31.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution31.png> <a0,fr31>
+<python/Revolution32.png, id=150, 462.528pt x 346.896pt>
+File: python/Revolution32.png Graphic file (type png)
+<use python/Revolution32.png>
+Package pdftex.def Info: python/Revolution32.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution32.png>
+<a0,fr32>
+<python/Revolution33.png, id=154, 462.528pt x 346.896pt>
+File: python/Revolution33.png Graphic file (type png)
+<use python/Revolution33.png>
+Package pdftex.def Info: python/Revolution33.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution33.png> <a0,fr33>
+<python/Revolution34.png, id=158, 462.528pt x 346.896pt>
+File: python/Revolution34.png Graphic file (type png)
+<use python/Revolution34.png>
+Package pdftex.def Info: python/Revolution34.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution34.png>
+<a0,fr34>
+<python/Revolution35.png, id=162, 462.528pt x 346.896pt>
+File: python/Revolution35.png Graphic file (type png)
+<use python/Revolution35.png>
+Package pdftex.def Info: python/Revolution35.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution35.png> <a0,fr35>
+<python/Revolution36.png, id=166, 462.528pt x 346.896pt>
+File: python/Revolution36.png Graphic file (type png)
+<use python/Revolution36.png>
+Package pdftex.def Info: python/Revolution36.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution36.png>
+<a0,fr36>
+<python/Revolution37.png, id=170, 462.528pt x 346.896pt>
+File: python/Revolution37.png Graphic file (type png)
+<use python/Revolution37.png>
+Package pdftex.def Info: python/Revolution37.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution37.png> <a0,fr37>
+<python/Revolution38.png, id=174, 462.528pt x 346.896pt>
+File: python/Revolution38.png Graphic file (type png)
+<use python/Revolution38.png>
+Package pdftex.def Info: python/Revolution38.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution38.png>
+<a0,fr38>
+<python/Revolution39.png, id=178, 462.528pt x 346.896pt>
+File: python/Revolution39.png Graphic file (type png)
+<use python/Revolution39.png>
+Package pdftex.def Info: python/Revolution39.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution39.png> <a0,fr39>
+<python/Revolution40.png, id=182, 462.528pt x 346.896pt>
+File: python/Revolution40.png Graphic file (type png)
+<use python/Revolution40.png>
+Package pdftex.def Info: python/Revolution40.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution40.png>
+<a0,fr40>
+<python/Revolution41.png, id=186, 462.528pt x 346.896pt>
+File: python/Revolution41.png Graphic file (type png)
+<use python/Revolution41.png>
+Package pdftex.def Info: python/Revolution41.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution41.png> <a0,fr41>
+<python/Revolution42.png, id=190, 462.528pt x 346.896pt>
+File: python/Revolution42.png Graphic file (type png)
+<use python/Revolution42.png>
+Package pdftex.def Info: python/Revolution42.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution42.png>
+<a0,fr42>
+<python/Revolution43.png, id=194, 462.528pt x 346.896pt>
+File: python/Revolution43.png Graphic file (type png)
+<use python/Revolution43.png>
+Package pdftex.def Info: python/Revolution43.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution43.png> <a0,fr43>
+<python/Revolution44.png, id=198, 462.528pt x 346.896pt>
+File: python/Revolution44.png Graphic file (type png)
+<use python/Revolution44.png>
+Package pdftex.def Info: python/Revolution44.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution44.png>
+<a0,fr44>
+<python/Revolution45.png, id=202, 462.528pt x 346.896pt>
+File: python/Revolution45.png Graphic file (type png)
+<use python/Revolution45.png>
+Package pdftex.def Info: python/Revolution45.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution45.png> <a0,fr45>
+<python/Revolution46.png, id=206, 462.528pt x 346.896pt>
+File: python/Revolution46.png Graphic file (type png)
+<use python/Revolution46.png>
+Package pdftex.def Info: python/Revolution46.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution46.png>
+<a0,fr46>
+<python/Revolution47.png, id=210, 462.528pt x 346.896pt>
+File: python/Revolution47.png Graphic file (type png)
+<use python/Revolution47.png>
+Package pdftex.def Info: python/Revolution47.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution47.png> <a0,fr47>
+<python/Revolution48.png, id=214, 462.528pt x 346.896pt>
+File: python/Revolution48.png Graphic file (type png)
+<use python/Revolution48.png>
+Package pdftex.def Info: python/Revolution48.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution48.png>
+<a0,fr48>
+<python/Revolution49.png, id=218, 462.528pt x 346.896pt>
+File: python/Revolution49.png Graphic file (type png)
+<use python/Revolution49.png>
+Package pdftex.def Info: python/Revolution49.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution49.png> <a0,fr49>
+<python/Revolution50.png, id=222, 462.528pt x 346.896pt>
+File: python/Revolution50.png Graphic file (type png)
+<use python/Revolution50.png>
+Package pdftex.def Info: python/Revolution50.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution50.png>
+<a0,fr50>
+<python/Revolution51.png, id=226, 462.528pt x 346.896pt>
+File: python/Revolution51.png Graphic file (type png)
+<use python/Revolution51.png>
+Package pdftex.def Info: python/Revolution51.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution51.png> <a0,fr51>
+<python/Revolution52.png, id=230, 462.528pt x 346.896pt>
+File: python/Revolution52.png Graphic file (type png)
+<use python/Revolution52.png>
+Package pdftex.def Info: python/Revolution52.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution52.png>
+<a0,fr52>
+<python/Revolution53.png, id=234, 462.528pt x 346.896pt>
+File: python/Revolution53.png Graphic file (type png)
+<use python/Revolution53.png>
+Package pdftex.def Info: python/Revolution53.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution53.png> <a0,fr53>
+<python/Revolution54.png, id=238, 462.528pt x 346.896pt>
+File: python/Revolution54.png Graphic file (type png)
+<use python/Revolution54.png>
+Package pdftex.def Info: python/Revolution54.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution54.png>
+<a0,fr54>
+<python/Revolution55.png, id=242, 462.528pt x 346.896pt>
+File: python/Revolution55.png Graphic file (type png)
+<use python/Revolution55.png>
+Package pdftex.def Info: python/Revolution55.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution55.png> <a0,fr55>
+<python/Revolution56.png, id=246, 462.528pt x 346.896pt>
+File: python/Revolution56.png Graphic file (type png)
+<use python/Revolution56.png>
+Package pdftex.def Info: python/Revolution56.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution56.png>
+<a0,fr56>
+<python/Revolution57.png, id=250, 462.528pt x 346.896pt>
+File: python/Revolution57.png Graphic file (type png)
+<use python/Revolution57.png>
+Package pdftex.def Info: python/Revolution57.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution57.png> <a0,fr57>
+<python/Revolution58.png, id=254, 462.528pt x 346.896pt>
+File: python/Revolution58.png Graphic file (type png)
+<use python/Revolution58.png>
+Package pdftex.def Info: python/Revolution58.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution58.png>
+<a0,fr58>
+<python/Revolution59.png, id=258, 462.528pt x 346.896pt>
+File: python/Revolution59.png Graphic file (type png)
+<use python/Revolution59.png>
+Package pdftex.def Info: python/Revolution59.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution59.png> <a0,fr59>
+<python/Revolution60.png, id=262, 462.528pt x 346.896pt>
+File: python/Revolution60.png Graphic file (type png)
+<use python/Revolution60.png>
+Package pdftex.def Info: python/Revolution60.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution60.png>
+<a0,fr60>
+<python/Revolution61.png, id=266, 462.528pt x 346.896pt>
+File: python/Revolution61.png Graphic file (type png)
+<use python/Revolution61.png>
+Package pdftex.def Info: python/Revolution61.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution61.png> <a0,fr61>
+<python/Revolution62.png, id=270, 462.528pt x 346.896pt>
+File: python/Revolution62.png Graphic file (type png)
+<use python/Revolution62.png>
+Package pdftex.def Info: python/Revolution62.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution62.png>
+<a0,fr62>
+<python/Revolution63.png, id=274, 462.528pt x 346.896pt>
+File: python/Revolution63.png Graphic file (type png)
+<use python/Revolution63.png>
+Package pdftex.def Info: python/Revolution63.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution63.png> <a0,fr63>
+<python/Revolution64.png, id=278, 462.528pt x 346.896pt>
+File: python/Revolution64.png Graphic file (type png)
+<use python/Revolution64.png>
+Package pdftex.def Info: python/Revolution64.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution64.png>
+<a0,fr64>
+<python/Revolution65.png, id=282, 462.528pt x 346.896pt>
+File: python/Revolution65.png Graphic file (type png)
+<use python/Revolution65.png>
+Package pdftex.def Info: python/Revolution65.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution65.png> <a0,fr65>
+<python/Revolution66.png, id=286, 462.528pt x 346.896pt>
+File: python/Revolution66.png Graphic file (type png)
+<use python/Revolution66.png>
+Package pdftex.def Info: python/Revolution66.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution66.png>
+<a0,fr66>
+<python/Revolution67.png, id=290, 462.528pt x 346.896pt>
+File: python/Revolution67.png Graphic file (type png)
+<use python/Revolution67.png>
+Package pdftex.def Info: python/Revolution67.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution67.png> <a0,fr67>
+<python/Revolution68.png, id=294, 462.528pt x 346.896pt>
+File: python/Revolution68.png Graphic file (type png)
+<use python/Revolution68.png>
+Package pdftex.def Info: python/Revolution68.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution68.png>
+<a0,fr68>
+<python/Revolution69.png, id=298, 462.528pt x 346.896pt>
+File: python/Revolution69.png Graphic file (type png)
+<use python/Revolution69.png>
+Package pdftex.def Info: python/Revolution69.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution69.png> <a0,fr69>
+<python/Revolution70.png, id=302, 462.528pt x 346.896pt>
+File: python/Revolution70.png Graphic file (type png)
+<use python/Revolution70.png>
+Package pdftex.def Info: python/Revolution70.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution70.png>
+<a0,fr70>
+<python/Revolution71.png, id=306, 462.528pt x 346.896pt>
+File: python/Revolution71.png Graphic file (type png)
+<use python/Revolution71.png>
+Package pdftex.def Info: python/Revolution71.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution71.png> <a0,fr71>
+<python/Revolution72.png, id=310, 462.528pt x 346.896pt>
+File: python/Revolution72.png Graphic file (type png)
+<use python/Revolution72.png>
+Package pdftex.def Info: python/Revolution72.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution72.png>
+<a0,fr72>
+<python/Revolution73.png, id=314, 462.528pt x 346.896pt>
+File: python/Revolution73.png Graphic file (type png)
+<use python/Revolution73.png>
+Package pdftex.def Info: python/Revolution73.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution73.png> <a0,fr73>
+<python/Revolution74.png, id=318, 462.528pt x 346.896pt>
+File: python/Revolution74.png Graphic file (type png)
+<use python/Revolution74.png>
+Package pdftex.def Info: python/Revolution74.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution74.png>
+<a0,fr74>
+<python/Revolution75.png, id=322, 462.528pt x 346.896pt>
+File: python/Revolution75.png Graphic file (type png)
+<use python/Revolution75.png>
+Package pdftex.def Info: python/Revolution75.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution75.png> <a0,fr75>
+<python/Revolution76.png, id=326, 462.528pt x 346.896pt>
+File: python/Revolution76.png Graphic file (type png)
+<use python/Revolution76.png>
+Package pdftex.def Info: python/Revolution76.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution76.png>
+<a0,fr76>
+<python/Revolution77.png, id=330, 462.528pt x 346.896pt>
+File: python/Revolution77.png Graphic file (type png)
+<use python/Revolution77.png>
+Package pdftex.def Info: python/Revolution77.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution77.png> <a0,fr77>
+<python/Revolution78.png, id=334, 462.528pt x 346.896pt>
+File: python/Revolution78.png Graphic file (type png)
+<use python/Revolution78.png>
+Package pdftex.def Info: python/Revolution78.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution78.png>
+<a0,fr78>
+<python/Revolution79.png, id=338, 462.528pt x 346.896pt>
+File: python/Revolution79.png Graphic file (type png)
+<use python/Revolution79.png>
+Package pdftex.def Info: python/Revolution79.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution79.png> <a0,fr79>
+<python/Revolution80.png, id=342, 462.528pt x 346.896pt>
+File: python/Revolution80.png Graphic file (type png)
+<use python/Revolution80.png>
+Package pdftex.def Info: python/Revolution80.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution80.png>
+<a0,fr80>
+<python/Revolution81.png, id=346, 462.528pt x 346.896pt>
+File: python/Revolution81.png Graphic file (type png)
+<use python/Revolution81.png>
+Package pdftex.def Info: python/Revolution81.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution81.png> <a0,fr81>
+<python/Revolution82.png, id=350, 462.528pt x 346.896pt>
+File: python/Revolution82.png Graphic file (type png)
+<use python/Revolution82.png>
+Package pdftex.def Info: python/Revolution82.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution82.png>
+<a0,fr82>
+<python/Revolution83.png, id=354, 462.528pt x 346.896pt>
+File: python/Revolution83.png Graphic file (type png)
+<use python/Revolution83.png>
+Package pdftex.def Info: python/Revolution83.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution83.png> <a0,fr83>
+<python/Revolution84.png, id=358, 462.528pt x 346.896pt>
+File: python/Revolution84.png Graphic file (type png)
+<use python/Revolution84.png>
+Package pdftex.def Info: python/Revolution84.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution84.png>
+<a0,fr84>
+<python/Revolution85.png, id=362, 462.528pt x 346.896pt>
+File: python/Revolution85.png Graphic file (type png)
+<use python/Revolution85.png>
+Package pdftex.def Info: python/Revolution85.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution85.png> <a0,fr85>
+<python/Revolution86.png, id=366, 462.528pt x 346.896pt>
+File: python/Revolution86.png Graphic file (type png)
+<use python/Revolution86.png>
+Package pdftex.def Info: python/Revolution86.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution86.png>
+<a0,fr86>
+<python/Revolution87.png, id=370, 462.528pt x 346.896pt>
+File: python/Revolution87.png Graphic file (type png)
+<use python/Revolution87.png>
+Package pdftex.def Info: python/Revolution87.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution87.png> <a0,fr87>
+<python/Revolution88.png, id=374, 462.528pt x 346.896pt>
+File: python/Revolution88.png Graphic file (type png)
+<use python/Revolution88.png>
+Package pdftex.def Info: python/Revolution88.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution88.png>
+<a0,fr88>
+<python/Revolution89.png, id=378, 462.528pt x 346.896pt>
+File: python/Revolution89.png Graphic file (type png)
+<use python/Revolution89.png>
+Package pdftex.def Info: python/Revolution89.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution89.png> <a0,fr89>
+<python/Revolution90.png, id=382, 462.528pt x 346.896pt>
+File: python/Revolution90.png Graphic file (type png)
+<use python/Revolution90.png>
+Package pdftex.def Info: python/Revolution90.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution90.png>
+<a0,fr90>
+<python/Revolution91.png, id=386, 462.528pt x 346.896pt>
+File: python/Revolution91.png Graphic file (type png)
+<use python/Revolution91.png>
+Package pdftex.def Info: python/Revolution91.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution91.png> <a0,fr91>
+<python/Revolution92.png, id=390, 462.528pt x 346.896pt>
+File: python/Revolution92.png Graphic file (type png)
+<use python/Revolution92.png>
+Package pdftex.def Info: python/Revolution92.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution92.png>
+<a0,fr92>
+<python/Revolution93.png, id=394, 462.528pt x 346.896pt>
+File: python/Revolution93.png Graphic file (type png)
+<use python/Revolution93.png>
+Package pdftex.def Info: python/Revolution93.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution93.png> <a0,fr93>
+<python/Revolution94.png, id=398, 462.528pt x 346.896pt>
+File: python/Revolution94.png Graphic file (type png)
+<use python/Revolution94.png>
+Package pdftex.def Info: python/Revolution94.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution94.png>
+<a0,fr94>
+<python/Revolution95.png, id=402, 462.528pt x 346.896pt>
+File: python/Revolution95.png Graphic file (type png)
+<use python/Revolution95.png>
+Package pdftex.def Info: python/Revolution95.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution95.png> <a0,fr95>
+<python/Revolution96.png, id=406, 462.528pt x 346.896pt>
+File: python/Revolution96.png Graphic file (type png)
+<use python/Revolution96.png>
+Package pdftex.def Info: python/Revolution96.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution96.png>
+<a0,fr96>
+<python/Revolution97.png, id=411, 462.528pt x 346.896pt>
+File: python/Revolution97.png Graphic file (type png)
+<use python/Revolution97.png>
+Package pdftex.def Info: python/Revolution97.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution97.png> <a0,fr97>
+<python/Revolution98.png, id=415, 462.528pt x 346.896pt>
+File: python/Revolution98.png Graphic file (type png)
+<use python/Revolution98.png>
+Package pdftex.def Info: python/Revolution98.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution98.png>
+<a0,fr98>
+<python/Revolution99.png, id=419, 462.528pt x 346.896pt>
+File: python/Revolution99.png Graphic file (type png)
+<use python/Revolution99.png>
+Package pdftex.def Info: python/Revolution99.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution99.png> <a0,fr99>
+<python/Revolution100.png, id=423, 462.528pt x 346.896pt>
+File: python/Revolution100.png Graphic file (type png)
+<use python/Revolution100.png>
+Package pdftex.def Info: python/Revolution100.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution100.png>
+<a0,fr100>
+<python/Revolution101.png, id=427, 462.528pt x 346.896pt>
+File: python/Revolution101.png Graphic file (type png)
+<use python/Revolution101.png>
+Package pdftex.def Info: python/Revolution101.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution101.png> <a0,fr101>
+<python/Revolution102.png, id=431, 462.528pt x 346.896pt>
+File: python/Revolution102.png Graphic file (type png)
+<use python/Revolution102.png>
+Package pdftex.def Info: python/Revolution102.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution102.png> <a0,fr102>
+<python/Revolution103.png, id=435, 462.528pt x 346.896pt>
+File: python/Revolution103.png Graphic file (type png)
+<use python/Revolution103.png>
+Package pdftex.def Info: python/Revolution103.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution103.png> <a0,fr103>
+<python/Revolution104.png, id=439, 462.528pt x 346.896pt>
+File: python/Revolution104.png Graphic file (type png)
+<use python/Revolution104.png>
+Package pdftex.def Info: python/Revolution104.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution104.png> <a0,fr104>
+<python/Revolution105.png, id=443, 462.528pt x 346.896pt>
+File: python/Revolution105.png Graphic file (type png)
+<use python/Revolution105.png>
+Package pdftex.def Info: python/Revolution105.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution105.png> <a0,fr105>
+<python/Revolution106.png, id=447, 462.528pt x 346.896pt>
+File: python/Revolution106.png Graphic file (type png)
+<use python/Revolution106.png>
+Package pdftex.def Info: python/Revolution106.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution106.png> <a0,fr106>
+<python/Revolution107.png, id=451, 462.528pt x 346.896pt>
+File: python/Revolution107.png Graphic file (type png)
+<use python/Revolution107.png>
+Package pdftex.def Info: python/Revolution107.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution107.png> <a0,fr107>
+<python/Revolution108.png, id=455, 462.528pt x 346.896pt>
+File: python/Revolution108.png Graphic file (type png)
+<use python/Revolution108.png>
+Package pdftex.def Info: python/Revolution108.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution108.png> <a0,fr108>
+<python/Revolution109.png, id=459, 462.528pt x 346.896pt>
+File: python/Revolution109.png Graphic file (type png)
+<use python/Revolution109.png>
+Package pdftex.def Info: python/Revolution109.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution109.png> <a0,fr109>
+<python/Revolution110.png, id=463, 462.528pt x 346.896pt>
+File: python/Revolution110.png Graphic file (type png)
+<use python/Revolution110.png>
+Package pdftex.def Info: python/Revolution110.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution110.png> <a0,fr110>
+<python/Revolution111.png, id=467, 462.528pt x 346.896pt>
+File: python/Revolution111.png Graphic file (type png)
+<use python/Revolution111.png>
+Package pdftex.def Info: python/Revolution111.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution111.png> <a0,fr111>
+<python/Revolution112.png, id=471, 462.528pt x 346.896pt>
+File: python/Revolution112.png Graphic file (type png)
+<use python/Revolution112.png>
+Package pdftex.def Info: python/Revolution112.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution112.png> <a0,fr112>
+<python/Revolution113.png, id=475, 462.528pt x 346.896pt>
+File: python/Revolution113.png Graphic file (type png)
+<use python/Revolution113.png>
+Package pdftex.def Info: python/Revolution113.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution113.png> <a0,fr113>
+<python/Revolution114.png, id=479, 462.528pt x 346.896pt>
+File: python/Revolution114.png Graphic file (type png)
+<use python/Revolution114.png>
+Package pdftex.def Info: python/Revolution114.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution114.png> <a0,fr114>
+<python/Revolution115.png, id=483, 462.528pt x 346.896pt>
+File: python/Revolution115.png Graphic file (type png)
+<use python/Revolution115.png>
+Package pdftex.def Info: python/Revolution115.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution115.png> <a0,fr115>
+<python/Revolution116.png, id=487, 462.528pt x 346.896pt>
+File: python/Revolution116.png Graphic file (type png)
+<use python/Revolution116.png>
+Package pdftex.def Info: python/Revolution116.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution116.png> <a0,fr116>
+<python/Revolution117.png, id=491, 462.528pt x 346.896pt>
+File: python/Revolution117.png Graphic file (type png)
+<use python/Revolution117.png>
+Package pdftex.def Info: python/Revolution117.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution117.png> <a0,fr117>
+<python/Revolution118.png, id=495, 462.528pt x 346.896pt>
+File: python/Revolution118.png Graphic file (type png)
+<use python/Revolution118.png>
+Package pdftex.def Info: python/Revolution118.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution118.png> <a0,fr118>
+<python/Revolution119.png, id=499, 462.528pt x 346.896pt>
+File: python/Revolution119.png Graphic file (type png)
+<use python/Revolution119.png>
+Package pdftex.def Info: python/Revolution119.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution119.png> <a0,fr119>
+<python/Revolution120.png, id=503, 462.528pt x 346.896pt>
+File: python/Revolution120.png Graphic file (type png)
+<use python/Revolution120.png>
+Package pdftex.def Info: python/Revolution120.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution120.png> <a0,fr120>
+<python/Revolution121.png, id=507, 462.528pt x 346.896pt>
+File: python/Revolution121.png Graphic file (type png)
+<use python/Revolution121.png>
+Package pdftex.def Info: python/Revolution121.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution121.png> <a0,fr121>
+<python/Revolution122.png, id=511, 462.528pt x 346.896pt>
+File: python/Revolution122.png Graphic file (type png)
+<use python/Revolution122.png>
+Package pdftex.def Info: python/Revolution122.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution122.png> <a0,fr122>
+<python/Revolution123.png, id=515, 462.528pt x 346.896pt>
+File: python/Revolution123.png Graphic file (type png)
+<use python/Revolution123.png>
+Package pdftex.def Info: python/Revolution123.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution123.png> <a0,fr123>
+<python/Revolution124.png, id=519, 462.528pt x 346.896pt>
+File: python/Revolution124.png Graphic file (type png)
+<use python/Revolution124.png>
+Package pdftex.def Info: python/Revolution124.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution124.png> <a0,fr124>
+<python/Revolution125.png, id=523, 462.528pt x 346.896pt>
+File: python/Revolution125.png Graphic file (type png)
+<use python/Revolution125.png>
+Package pdftex.def Info: python/Revolution125.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution125.png> <a0,fr125>
+<python/Revolution126.png, id=527, 462.528pt x 346.896pt>
+File: python/Revolution126.png Graphic file (type png)
+<use python/Revolution126.png>
+Package pdftex.def Info: python/Revolution126.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution126.png> <a0,fr126>
+<python/Revolution127.png, id=531, 462.528pt x 346.896pt>
+File: python/Revolution127.png Graphic file (type png)
+<use python/Revolution127.png>
+Package pdftex.def Info: python/Revolution127.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution127.png> <a0,fr127>
+<python/Revolution128.png, id=535, 462.528pt x 346.896pt>
+File: python/Revolution128.png Graphic file (type png)
+<use python/Revolution128.png>
+Package pdftex.def Info: python/Revolution128.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution128.png> <a0,fr128>
+<python/Revolution129.png, id=539, 462.528pt x 346.896pt>
+File: python/Revolution129.png Graphic file (type png)
+<use python/Revolution129.png>
+Package pdftex.def Info: python/Revolution129.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution129.png> <a0,fr129>
+<python/Revolution130.png, id=543, 462.528pt x 346.896pt>
+File: python/Revolution130.png Graphic file (type png)
+<use python/Revolution130.png>
+Package pdftex.def Info: python/Revolution130.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution130.png> <a0,fr130>
+<python/Revolution131.png, id=547, 462.528pt x 346.896pt>
+File: python/Revolution131.png Graphic file (type png)
+<use python/Revolution131.png>
+Package pdftex.def Info: python/Revolution131.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution131.png> <a0,fr131>
+<python/Revolution132.png, id=551, 462.528pt x 346.896pt>
+File: python/Revolution132.png Graphic file (type png)
+<use python/Revolution132.png>
+Package pdftex.def Info: python/Revolution132.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution132.png> <a0,fr132>
+<python/Revolution133.png, id=555, 462.528pt x 346.896pt>
+File: python/Revolution133.png Graphic file (type png)
+<use python/Revolution133.png>
+Package pdftex.def Info: python/Revolution133.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution133.png> <a0,fr133>
+<python/Revolution134.png, id=559, 462.528pt x 346.896pt>
+File: python/Revolution134.png Graphic file (type png)
+<use python/Revolution134.png>
+Package pdftex.def Info: python/Revolution134.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution134.png> <a0,fr134>
+<python/Revolution135.png, id=563, 462.528pt x 346.896pt>
+File: python/Revolution135.png Graphic file (type png)
+<use python/Revolution135.png>
+Package pdftex.def Info: python/Revolution135.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution135.png> <a0,fr135>
+<python/Revolution136.png, id=567, 462.528pt x 346.896pt>
+File: python/Revolution136.png Graphic file (type png)
+<use python/Revolution136.png>
+Package pdftex.def Info: python/Revolution136.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution136.png> <a0,fr136>
+<python/Revolution137.png, id=571, 462.528pt x 346.896pt>
+File: python/Revolution137.png Graphic file (type png)
+<use python/Revolution137.png>
+Package pdftex.def Info: python/Revolution137.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution137.png> <a0,fr137>
+<python/Revolution138.png, id=575, 462.528pt x 346.896pt>
+File: python/Revolution138.png Graphic file (type png)
+<use python/Revolution138.png>
+Package pdftex.def Info: python/Revolution138.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution138.png> <a0,fr138>
+<python/Revolution139.png, id=579, 462.528pt x 346.896pt>
+File: python/Revolution139.png Graphic file (type png)
+<use python/Revolution139.png>
+Package pdftex.def Info: python/Revolution139.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution139.png> <a0,fr139>
+<python/Revolution140.png, id=583, 462.528pt x 346.896pt>
+File: python/Revolution140.png Graphic file (type png)
+<use python/Revolution140.png>
+Package pdftex.def Info: python/Revolution140.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution140.png> <a0,fr140>
+<python/Revolution141.png, id=587, 462.528pt x 346.896pt>
+File: python/Revolution141.png Graphic file (type png)
+<use python/Revolution141.png>
+Package pdftex.def Info: python/Revolution141.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution141.png> <a0,fr141>
+<python/Revolution142.png, id=591, 462.528pt x 346.896pt>
+File: python/Revolution142.png Graphic file (type png)
+<use python/Revolution142.png>
+Package pdftex.def Info: python/Revolution142.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution142.png> <a0,fr142>
+<python/Revolution143.png, id=595, 462.528pt x 346.896pt>
+File: python/Revolution143.png Graphic file (type png)
+<use python/Revolution143.png>
+Package pdftex.def Info: python/Revolution143.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution143.png> <a0,fr143>
+<python/Revolution144.png, id=599, 462.528pt x 346.896pt>
+File: python/Revolution144.png Graphic file (type png)
+<use python/Revolution144.png>
+Package pdftex.def Info: python/Revolution144.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution144.png> <a0,fr144>
+<python/Revolution145.png, id=603, 462.528pt x 346.896pt>
+File: python/Revolution145.png Graphic file (type png)
+<use python/Revolution145.png>
+Package pdftex.def Info: python/Revolution145.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution145.png> <a0,fr145>
+<python/Revolution146.png, id=607, 462.528pt x 346.896pt>
+File: python/Revolution146.png Graphic file (type png)
+<use python/Revolution146.png>
+Package pdftex.def Info: python/Revolution146.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution146.png> <a0,fr146>
+<python/Revolution147.png, id=611, 462.528pt x 346.896pt>
+File: python/Revolution147.png Graphic file (type png)
+<use python/Revolution147.png>
+Package pdftex.def Info: python/Revolution147.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution147.png> <a0,fr147>
+<python/Revolution148.png, id=615, 462.528pt x 346.896pt>
+File: python/Revolution148.png Graphic file (type png)
+<use python/Revolution148.png>
+Package pdftex.def Info: python/Revolution148.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution148.png> <a0,fr148>
+<python/Revolution149.png, id=619, 462.528pt x 346.896pt>
+File: python/Revolution149.png Graphic file (type png)
+<use python/Revolution149.png>
+Package pdftex.def Info: python/Revolution149.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution149.png> <a0,fr149>
+<python/Revolution150.png, id=623, 462.528pt x 346.896pt>
+File: python/Revolution150.png Graphic file (type png)
+<use python/Revolution150.png>
+Package pdftex.def Info: python/Revolution150.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution150.png> <a0,fr150>
+<python/Revolution151.png, id=627, 462.528pt x 346.896pt>
+File: python/Revolution151.png Graphic file (type png)
+<use python/Revolution151.png>
+Package pdftex.def Info: python/Revolution151.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution151.png> <a0,fr151>
+<python/Revolution152.png, id=631, 462.528pt x 346.896pt>
+File: python/Revolution152.png Graphic file (type png)
+<use python/Revolution152.png>
+Package pdftex.def Info: python/Revolution152.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution152.png> <a0,fr152>
+<python/Revolution153.png, id=635, 462.528pt x 346.896pt>
+File: python/Revolution153.png Graphic file (type png)
+<use python/Revolution153.png>
+Package pdftex.def Info: python/Revolution153.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution153.png> <a0,fr153>
+<python/Revolution154.png, id=639, 462.528pt x 346.896pt>
+File: python/Revolution154.png Graphic file (type png)
+<use python/Revolution154.png>
+Package pdftex.def Info: python/Revolution154.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution154.png> <a0,fr154>
+<python/Revolution155.png, id=643, 462.528pt x 346.896pt>
+File: python/Revolution155.png Graphic file (type png)
+<use python/Revolution155.png>
+Package pdftex.def Info: python/Revolution155.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution155.png> <a0,fr155>
+<python/Revolution156.png, id=647, 462.528pt x 346.896pt>
+File: python/Revolution156.png Graphic file (type png)
+<use python/Revolution156.png>
+Package pdftex.def Info: python/Revolution156.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution156.png> <a0,fr156>
+<python/Revolution157.png, id=651, 462.528pt x 346.896pt>
+File: python/Revolution157.png Graphic file (type png)
+<use python/Revolution157.png>
+Package pdftex.def Info: python/Revolution157.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution157.png> <a0,fr157>
+<python/Revolution158.png, id=655, 462.528pt x 346.896pt>
+File: python/Revolution158.png Graphic file (type png)
+<use python/Revolution158.png>
+Package pdftex.def Info: python/Revolution158.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution158.png> <a0,fr158>
+<python/Revolution159.png, id=659, 462.528pt x 346.896pt>
+File: python/Revolution159.png Graphic file (type png)
+<use python/Revolution159.png>
+Package pdftex.def Info: python/Revolution159.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution159.png>
+<a0,fr159>
+<python/Revolution160.png, id=663, 462.528pt x 346.896pt>
+File: python/Revolution160.png Graphic file (type png)
+<use python/Revolution160.png>
+Package pdftex.def Info: python/Revolution160.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution160.png> <a0,fr160>
+<python/Revolution161.png, id=667, 462.528pt x 346.896pt>
+File: python/Revolution161.png Graphic file (type png)
+<use python/Revolution161.png>
+Package pdftex.def Info: python/Revolution161.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution161.png> <a0,fr161>
+<python/Revolution162.png, id=671, 462.528pt x 346.896pt>
+File: python/Revolution162.png Graphic file (type png)
+<use python/Revolution162.png>
+Package pdftex.def Info: python/Revolution162.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution162.png> <a0,fr162>
+<python/Revolution163.png, id=675, 462.528pt x 346.896pt>
+File: python/Revolution163.png Graphic file (type png)
+<use python/Revolution163.png>
+Package pdftex.def Info: python/Revolution163.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution163.png> <a0,fr163>
+<python/Revolution164.png, id=679, 462.528pt x 346.896pt>
+File: python/Revolution164.png Graphic file (type png)
+<use python/Revolution164.png>
+Package pdftex.def Info: python/Revolution164.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution164.png> <a0,fr164>
+<python/Revolution165.png, id=683, 462.528pt x 346.896pt>
+File: python/Revolution165.png Graphic file (type png)
+<use python/Revolution165.png>
+Package pdftex.def Info: python/Revolution165.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution165.png> <a0,fr165>
+<python/Revolution166.png, id=687, 462.528pt x 346.896pt>
+File: python/Revolution166.png Graphic file (type png)
+<use python/Revolution166.png>
+Package pdftex.def Info: python/Revolution166.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution166.png> <a0,fr166>
+<python/Revolution167.png, id=691, 462.528pt x 346.896pt>
+File: python/Revolution167.png Graphic file (type png)
+<use python/Revolution167.png>
+Package pdftex.def Info: python/Revolution167.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution167.png> <a0,fr167>
+<python/Revolution168.png, id=695, 462.528pt x 346.896pt>
+File: python/Revolution168.png Graphic file (type png)
+<use python/Revolution168.png>
+Package pdftex.def Info: python/Revolution168.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution168.png> <a0,fr168>
+<python/Revolution169.png, id=699, 462.528pt x 346.896pt>
+File: python/Revolution169.png Graphic file (type png)
+<use python/Revolution169.png>
+Package pdftex.def Info: python/Revolution169.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution169.png> <a0,fr169>
+<python/Revolution170.png, id=703, 462.528pt x 346.896pt>
+File: python/Revolution170.png Graphic file (type png)
+<use python/Revolution170.png>
+Package pdftex.def Info: python/Revolution170.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution170.png> <a0,fr170>
+<python/Revolution171.png, id=707, 462.528pt x 346.896pt>
+File: python/Revolution171.png Graphic file (type png)
+<use python/Revolution171.png>
+Package pdftex.def Info: python/Revolution171.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution171.png> <a0,fr171>
+<python/Revolution172.png, id=711, 462.528pt x 346.896pt>
+File: python/Revolution172.png Graphic file (type png)
+<use python/Revolution172.png>
+Package pdftex.def Info: python/Revolution172.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution172.png> <a0,fr172>
+<python/Revolution173.png, id=715, 462.528pt x 346.896pt>
+File: python/Revolution173.png Graphic file (type png)
+<use python/Revolution173.png>
+Package pdftex.def Info: python/Revolution173.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution173.png> <a0,fr173>
+<python/Revolution174.png, id=719, 462.528pt x 346.896pt>
+File: python/Revolution174.png Graphic file (type png)
+<use python/Revolution174.png>
+Package pdftex.def Info: python/Revolution174.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution174.png> <a0,fr174>
+<python/Revolution175.png, id=723, 462.528pt x 346.896pt>
+File: python/Revolution175.png Graphic file (type png)
+<use python/Revolution175.png>
+Package pdftex.def Info: python/Revolution175.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution175.png> <a0,fr175>
+<python/Revolution176.png, id=727, 462.528pt x 346.896pt>
+File: python/Revolution176.png Graphic file (type png)
+<use python/Revolution176.png>
+Package pdftex.def Info: python/Revolution176.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution176.png> <a0,fr176>
+<python/Revolution177.png, id=731, 462.528pt x 346.896pt>
+File: python/Revolution177.png Graphic file (type png)
+<use python/Revolution177.png>
+Package pdftex.def Info: python/Revolution177.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution177.png> <a0,fr177>
+<python/Revolution178.png, id=735, 462.528pt x 346.896pt>
+File: python/Revolution178.png Graphic file (type png)
+<use python/Revolution178.png>
+Package pdftex.def Info: python/Revolution178.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution178.png> <a0,fr178>
+<python/Revolution179.png, id=739, 462.528pt x 346.896pt>
+File: python/Revolution179.png Graphic file (type png)
+<use python/Revolution179.png>
+Package pdftex.def Info: python/Revolution179.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution179.png> <a0,fr179>
+<python/Revolution180.png, id=743, 462.528pt x 346.896pt>
+File: python/Revolution180.png Graphic file (type png)
+<use python/Revolution180.png>
+Package pdftex.def Info: python/Revolution180.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution180.png> <a0,fr180>
+<python/Revolution181.png, id=747, 462.528pt x 346.896pt>
+File: python/Revolution181.png Graphic file (type png)
+<use python/Revolution181.png>
+Package pdftex.def Info: python/Revolution181.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution181.png> <a0,fr181>
+<python/Revolution182.png, id=751, 462.528pt x 346.896pt>
+File: python/Revolution182.png Graphic file (type png)
+<use python/Revolution182.png>
+Package pdftex.def Info: python/Revolution182.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution182.png> <a0,fr182>
+<python/Revolution183.png, id=755, 462.528pt x 346.896pt>
+File: python/Revolution183.png Graphic file (type png)
+<use python/Revolution183.png>
+Package pdftex.def Info: python/Revolution183.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution183.png> <a0,fr183>
+<python/Revolution184.png, id=759, 462.528pt x 346.896pt>
+File: python/Revolution184.png Graphic file (type png)
+<use python/Revolution184.png>
+Package pdftex.def Info: python/Revolution184.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution184.png> <a0,fr184>
+<python/Revolution185.png, id=763, 462.528pt x 346.896pt>
+File: python/Revolution185.png Graphic file (type png)
+<use python/Revolution185.png>
+Package pdftex.def Info: python/Revolution185.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution185.png> <a0,fr185>
+<python/Revolution186.png, id=767, 462.528pt x 346.896pt>
+File: python/Revolution186.png Graphic file (type png)
+<use python/Revolution186.png>
+Package pdftex.def Info: python/Revolution186.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution186.png> <a0,fr186>
+<python/Revolution187.png, id=771, 462.528pt x 346.896pt>
+File: python/Revolution187.png Graphic file (type png)
+<use python/Revolution187.png>
+Package pdftex.def Info: python/Revolution187.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution187.png> <a0,fr187>
+<python/Revolution188.png, id=775, 462.528pt x 346.896pt>
+File: python/Revolution188.png Graphic file (type png)
+<use python/Revolution188.png>
+Package pdftex.def Info: python/Revolution188.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution188.png> <a0,fr188>
+<python/Revolution189.png, id=779, 462.528pt x 346.896pt>
+File: python/Revolution189.png Graphic file (type png)
+<use python/Revolution189.png>
+Package pdftex.def Info: python/Revolution189.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution189.png> <a0,fr189>
+<python/Revolution190.png, id=783, 462.528pt x 346.896pt>
+File: python/Revolution190.png Graphic file (type png)
+<use python/Revolution190.png>
+Package pdftex.def Info: python/Revolution190.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution190.png> <a0,fr190>
+<python/Revolution191.png, id=787, 462.528pt x 346.896pt>
+File: python/Revolution191.png Graphic file (type png)
+<use python/Revolution191.png>
+Package pdftex.def Info: python/Revolution191.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution191.png> <a0,fr191>
+<python/Revolution192.png, id=791, 462.528pt x 346.896pt>
+File: python/Revolution192.png Graphic file (type png)
+<use python/Revolution192.png>
+Package pdftex.def Info: python/Revolution192.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution192.png> <a0,fr192>
+<python/Revolution193.png, id=795, 462.528pt x 346.896pt>
+File: python/Revolution193.png Graphic file (type png)
+<use python/Revolution193.png>
+Package pdftex.def Info: python/Revolution193.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution193.png> <a0,fr193>
+<python/Revolution194.png, id=799, 462.528pt x 346.896pt>
+File: python/Revolution194.png Graphic file (type png)
+<use python/Revolution194.png>
+Package pdftex.def Info: python/Revolution194.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution194.png> <a0,fr194>
+<python/Revolution195.png, id=803, 462.528pt x 346.896pt>
+File: python/Revolution195.png Graphic file (type png)
+<use python/Revolution195.png>
+Package pdftex.def Info: python/Revolution195.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution195.png> <a0,fr195>
+<python/Revolution196.png, id=807, 462.528pt x 346.896pt>
+File: python/Revolution196.png Graphic file (type png)
+<use python/Revolution196.png>
+Package pdftex.def Info: python/Revolution196.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution196.png> <a0,fr196>
+<python/Revolution197.png, id=812, 462.528pt x 346.896pt>
+File: python/Revolution197.png Graphic file (type png)
+<use python/Revolution197.png>
+Package pdftex.def Info: python/Revolution197.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution197.png> <a0,fr197>
+<python/Revolution198.png, id=816, 462.528pt x 346.896pt>
+File: python/Revolution198.png Graphic file (type png)
+<use python/Revolution198.png>
+Package pdftex.def Info: python/Revolution198.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution198.png> <a0,fr198>
+<python/Revolution199.png, id=820, 462.528pt x 346.896pt>
+File: python/Revolution199.png Graphic file (type png)
+<use python/Revolution199.png>
+Package pdftex.def Info: python/Revolution199.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution199.png> <a0,fr199>
+<python/Revolution200.png, id=824, 462.528pt x 346.896pt>
+File: python/Revolution200.png Graphic file (type png)
+<use python/Revolution200.png>
+Package pdftex.def Info: python/Revolution200.png  used on input line 46.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ <./python/Revolution200.png> <a0,fr200>
+Overfull \hbox (121.67888pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--50
+
+ []
+
+[2 <./exo8_52.png>] (./exo_5-2.aux) ) 
+Here is how much of TeX's memory you used:
+ 31558 strings out of 480177
+ 780302 string characters out of 5893866
+ 1106395 words of memory out of 5000000
+ 48792 multiletter control sequences out of 15000+600000
+ 499737 words of font info for 62 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 92i,13n,98p,757b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm
+.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts
+/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmsy8.pfb>
+Output written on exo_5-2.pdf (2 pages, 12389083 bytes).
+PDF statistics:
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 450 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 2247 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,214 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{enumerate}
+\usepackage{breqn}
+\usepackage{parskip}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\DeclareMathOperator{\dom}{dom}
+
+\newcommand{\spc}{\vspace*{0.5cm}}
+\CorrectChoiceEmphasis{\color{red}}
+
+\begin{document}
+\noindent \hrulefill \\
+	MATH-241 Calculus I \hfill Created by Rukiyah Walker\\
+	Homework 10 \hfill Spring 2023\\ \vspace*{-1cm}
+ 
+	\noindent\hrulefill
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\begin{questions}
+
+\vspace*{0.5cm}
+
+\question[1]
+
+Suppose $\lim_{x \to \infty} f(x) = \infty$ and $\lim_{x \to \infty} g(x) = -\infty$. What is $\lim_{x \to \infty} f(x)g(x)$?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\infty$
+\choice 0
+\CorrectChoice $-\infty$
+\choice Does not exist.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+What is $\infty - \infty$?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\infty$
+\CorrectChoice Does not exist.
+\choice 0
+\choice $-\infty$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+When is a function $f$ an odd function? 
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice If $f(-x) = -f(x)$.
+\choice If $\lim_{x \to \infty} f(x) = -\infty$ 
+\choice If $f(-x) = f(x)$.
+\choice If $\lim_{x \to \infty} f(x)$ does not exist.
+\end{choices}
+\end{multicols}
+
+\question[1]
+
+Suppose $f(x) = \frac{x}{x+1}$. Find the vertical and horizontal asymptotes.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice Vertical asymptote at $y = 1$
+\newline Horizontal asymptote at $x = -1$
+\choice Vertical asymptote at $x = 1$
+\newline Horizontal asymptote at $y = -1$
+\CorrectChoice Vertical asymptote at $x = -1$
+\newline Horizontal asymptote at $y = 1$
+\choice No vertical asymptote.
+\newline Horizontal asymptote at $y = -1$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+$f(x) = \frac{x^2 + 4x}{x^2-16}$. Find the vertical asymptote(s).
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $x = 16$
+\choice $x = -4$ and $x = 4$
+\choice There are no vertical asymptotes. 
+\CorrectChoice $x = 4$
+\end{choices}
+\end{multicols}
+
+\newpage
+
+\question[1]
+
+Suppose we have a function $f(x) = \frac{x^4}{12} + x$, where $f''(x) = x^2$. What does $f''(x)$ tell us about the curve of $f(x)$?
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice $f''(x)$ will always be positive, so the graph of $f(x)$ is concave upward.
+\choice $f''(x)$ will always be negative, so the graph of $f(x)$ is concave upward.
+\choice $f''(x)$ will always be positive, so the graph of $f(x)$ is concave downward.
+\choice $f''(x)$ will always be negative, so the graph of $f(x)$ is concave downward.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose $f'(x) < 0$ and $f''(x) > 0$ for some function $f(x)$. What does this tell us about the graph of $f(x)$?
+
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $f(x)$ is decreasing and concave upward.
+\CorrectChoice $f(x)$ is decreasing and concave upward.
+\choice Since they are opposite signs we can not conclude anything about $f(x)$.
+\choice $f(x)$ is decreasing and concave downward.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Give the function to optimize for the following problem:
+
+Find the dimensions of a rectangle with perimeter 100m whose area is as large as possible. 
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $y = \frac{100-x}{2}$
+\choice $100 = 2x+2y$
+\CorrectChoice $A = x(50-x)$
+\choice $A = xy$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Give the function to optimize for the following problem:
+
+The sum of two positive numbers is 16. What is the smallest possible value of their squares?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $16 = x + y$
+\choice $16 = x^2 + y^2$
+\choice $S = x^2 + y^2$
+\CorrectChoice $S = x^2 + (16-x)^2$
+\end{choices}
+\end{multicols}
+
+\question[1]
+
+Give the function to optimize for the following problem:
+
+Find the dimensions of the rectangle of largest area that can be inscribed in a circle with radius $r$ centered at the origin. (Both the circle and the recetangle are centered at the origin).
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $A = xy$
+\CorrectChoice $A = 4x\sqrt{r^2 - x^2}$
+\choice $A = \pi r^2$
+\choice $A = 4xy$
+\end{choices}
+\end{multicols}
+
+
+\end{questions}
+\end{document}

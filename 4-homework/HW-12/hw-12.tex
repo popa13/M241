@@ -1,0 +1,209 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{enumerate}
+\usepackage{breqn}
+\usepackage{parskip}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\DeclareMathOperator{\dom}{dom}
+
+\newcommand{\spc}{\vspace*{0.5cm}}
+\CorrectChoiceEmphasis{\color{red}}
+
+\begin{document}
+\noindent \hrulefill \\
+	MATH-241 Calculus I \hfill Created by Rukiyah Walker\\
+	Homework 12 \hfill Spring 2023\\ \vspace*{-1cm}
+ 
+	\noindent\hrulefill
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\begin{questions}
+
+\vspace*{0.5cm}
+
+\question[1]
+
+Suppose $\int_{a}^{b} f(x) \,dx = 6$ and $\int_{a}^{b} g(x) \,dx = 8$. What is $\int_{a}^{b} (f(x) + g(x)) \,dx$?
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice 14
+\choice 2
+\choice 48
+\choice $-2$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+What is the estimated area under the graph $f(x) = 1/x$, given the information in Question 1 and Question 2?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\approx 2.083$
+\choice $\approx 1.83$
+\choice $\approx 0.7595$
+\CorrectChoice $\approx 0.6345$ 
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Find the value of $\sum_{i=1}^{5} 2(2i+1)$.
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice 70
+\choice 6
+\choice 50
+\choice 35
+\end{choices}
+\end{multicols}
+
+\question[1]
+
+What are the right endpoints for the rectangles in Question 1?
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice $x_1 = 5/4, x_2 = 3/2, x_3 = 7/4,$ and $x_4 = 2$. 
+\choice $x_1 = 0, x_2 = 1/4, x_3 = 1/2,$ and $x_4 = 3/4$.
+\choice $x_1 = 1, x_2 = 5/4, x_3 = 3/2,$ and $x_4 = 7/4$.
+\choice $x_1 = 1/4, x_2 = 1/2, x_3 = 3/4,$ and $x_4 = 1$.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+What does $\int_{a}^{b} f(x) \,dx$ mean in words?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice The area of $f(x)$ from $a$ to $b$.
+\choice The limit of $f(x)$ as $x$ approaches $b-a$.
+\choice The limit of $f(x)$ as $a$ and $b$ approaches infinity.
+\CorrectChoice The definite integral of $f$ from $a$ to $b$.
+\end{choices}
+\end{multicols}
+
+\newpage
+
+
+
+\question[1]
+
+We know that for a continuous function $f$, $\int_{a}^{b} f(x) \,dx = \lim_{n \to \infty} S_n$, where $S_n$ are the Riemann Sums. What does $\int_{a}^{b} f(x) \,dx$ represent, if $f(x) \geq 0$?
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice The area of the region bounded by the graph of $f(x)$ and the $x$-axis, from $x = a$ to $x= b$.
+\choice $\lim_{n \to \infty} (S_b - S_a)$.
+\choice The integral of $S_n$.
+\choice The area of $f(x)$ from $a$ to $b$.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Evaluate $\int_{1}^{2} x^2 \,dx$.
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice $\frac{7}{3}$
+\choice 3
+\choice $\frac{8}{3}$
+\choice 2
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Write $1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36}$ in Sigma notation.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\sum_{i=1}^{6} \frac{1}{2i}$.
+\choice $\sum_{i=0}^{6} \frac{1}{i^2}$.
+\CorrectChoice $\sum_{i=1}^{6} \frac{1}{i^2}$.
+\choice $\sum_{i=1}^{6} i^2$.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose $\int_{0}^{2} f(x) \,dx = 9$ and $\int_{2}^{8} f(x) \,dx = 22$. What is $\int_{0}^{8} f(x) \,dx$?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice -5
+\choice 204
+\choice 5
+\CorrectChoice 31
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose you want to estimate the area under the graph of $f(x) = 1/x$ from $x=1$ to $x=2$ using 4 rectangles. What is the base value ($\Delta x$) for each rectangle?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\Delta x = 1/2$
+\CorrectChoice $\Delta x = 1/4$
+\choice $\Delta x = 4$
+\choice $\Delta x = 2$
+
+\end{choices}  
+\end{multicols}
+
+\spc
+
+\end{questions}
+\end{document}

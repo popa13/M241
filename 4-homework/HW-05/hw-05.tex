@@ -1,0 +1,196 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{enumerate}
+\usepackage{breqn}
+\usepackage{parskip}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\DeclareMathOperator{\dom}{dom}
+
+\newcommand{\spc}{\vspace*{0.5cm}}
+\CorrectChoiceEmphasis{\color{red}}
+
+\begin{document}
+\noindent \hrulefill \\
+	MATH-241 Calculus I \hfill Created by Rukiyah Walker\\
+	Homework 5 \hfill Spring 2023\\ \vspace*{-1cm}
+ 
+	\noindent\hrulefill
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\begin{questions}
+
+\vspace*{1cm}
+
+\question[1]
+
+Suppose you have a function, $f(x)$, that represents some curve, and a point $(a, b)$ on the curve. How do you find the slope of the tangent line at that point?
+
+\begin{choices}
+\choice Plug in the given point, and write in $y = mx + b$ form.
+\choice Find the derivative of $f(x)$.
+\choice Re-write the function in point-slope form.
+\CorrectChoice Find the derivative of $f(x)$, and then determine the value of the derivative at that point.
+\end{choices}
+
+\spc
+
+\question[1]
+
+If $c$ is a constant and $f$ is a differentiable function, then $\frac{d}{dx}[cf(x)]$ is equivalent to:
+
+\begin{choices}
+\CorrectChoice $c\frac{d}{dx}f(x)$
+\choice $\frac{d}{dx}cf(x)$
+\choice $\frac{d}{dx}f(x)c$
+\choice $f(x)$
+\end{choices}
+
+\spc
+
+\question[1]
+
+If $f$ and $g$ are both differentiable functions, then $\frac{d}{dx}[f(x)g(x)]$ is equivalent to:
+
+\begin{choices}
+\choice $\frac{d}{dx}f(x)\frac{d}{dx}g(x)$
+\choice $\frac{d}{dx}[f(x) + g(x)]$
+\CorrectChoice $f(x)[\frac{d}{dx}g(x)] + g(x)[\frac{d}{dx}f(x)]$
+\choice $\frac{d}{dx}f(x) + \frac{d}{dx}g(x)$
+\end{choices}
+
+\spc
+
+\question[1]
+
+If $f$ and $g$ are both differentiable functions, then $\frac{d}{dx}[\frac{f(x)}{g(x)}]$ is equivalent to:
+
+\begin{choices}
+\choice $\frac{\frac{d}{dx}f(x)}{\frac{d}{dx}g(x)}$
+\CorrectChoice $\frac{g(x)\frac{d}{dx}[f(x)] - f(x)\frac{d}{dx}[g(x)]}{[g(x)^2]}$
+\choice $\frac{\frac{d}{dx}f(x) - \frac{d}{dx}g(x)}{f(x)g(x)}$
+\choice $\frac{d}{dx}f(x) - \frac{d}{dx}g(x)$
+\end{choices}
+
+\spc
+
+\question[1]
+
+Two lines are parallel if:
+
+\begin{choices}
+\CorrectChoice They have the same slope.
+\choice They are continuous.
+\choice They have the same y-intercept.
+\choice They pass the vertical line test. 
+\end{choices}
+
+\spc
+
+\question[1]
+
+Match the functions below (A-D) with their derivatives (E-H). 
+
+(Write your answers as A-G, B-F, etc.)
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\frac{d}{dx}csc(x)$
+\choice $\frac{d}{dx}sec(x)$
+\choice $\frac{d}{dx}cot(x)$
+\choice $\frac{d}{dx}cos(x)$
+\choice $-csc(x)cot(x)$
+\choice $-csc^2(x)$
+\choice $-sin(x)$
+\choice $sec(x)tan(x)$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+$f(x) = cos(x)$. What is $f'(\frac{\pi}{2})$?
+
+\begin{choices}
+\choice 1
+\choice 0 
+\CorrectChoice -1
+\choice $-sin(x)$
+
+\end{choices}
+
+\spc
+
+\question[1]
+
+$f(x) = sin(x)$. What is $f'(\frac{\pi}{4})$?
+
+\begin{choices}
+\choice 0
+\CorrectChoice $\frac{\sqrt{2}}{2}$
+\choice 1
+\choice $-\frac{\sqrt{2}}{2}$
+\end{choices}
+
+\newpage
+
+\question[1]
+
+Given a function $f(x)$, when would we have a horizontal tangent line?
+
+\begin{choices}
+\CorrectChoice When $f'(x) = 0$.
+\choice When the function is continuous. 
+\choice When $x = 0$.
+\choice When $f(x) = 0$.
+
+\end{choices}
+
+\question[1]
+
+Calculate $\lim_{x \to 0} \frac{sin^2(x)}{x}$
+
+\begin{choices}
+\choice 1
+\choice $sin(x)$
+\choice -1
+\CorrectChoice 0
+\end{choices}
+
+
+\end{questions}
+
+\end{document}

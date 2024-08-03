@@ -1,0 +1,214 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{enumerate}
+\usepackage{breqn}
+\usepackage{parskip}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\DeclareMathOperator{\dom}{dom}
+
+\newcommand{\spc}{\vspace*{0.5cm}}
+\CorrectChoiceEmphasis{\color{red}}
+
+\begin{document}
+\noindent \hrulefill \\
+	MATH-241 Calculus I \hfill Created by Rukiyah Walker\\
+	Homework 13 \hfill Spring 2023\\ \vspace*{-1cm}
+ 
+	\noindent\hrulefill
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\begin{questions}
+
+\vspace*{0.5cm}
+
+\question[1]
+
+Express the limit, $lim_{n \to \infty} \sum_{i=1}^{n}  \frac{2}{n} \big( 1 + \frac{2i}{n} \big) \sqrt{1 + \frac{2i}{n}}$, as a definite integral. 
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice $\int_{1}^{3} x\sqrt{x} \,dx$
+\choice $\int_{1}^{3} \sqrt{x} \,dx$
+\choice $\int_{1}^{3} (x\sqrt{x})\frac{2}{n} \,dx$
+\choice $\int_{1}^{n} x\sqrt{x} \,dx$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose $\int_{1}^{2} x^2 \,dx$. Using this information, what are absolute minimum and maximum of the integrand $f(x) = x^2$? (Write as an inequality).
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $1 \leq x \leq 2$
+\CorrectChoice $1 \leq x^2 \leq 4$
+\choice $1 \leq x^2 \leq 2$
+\choice $1 \leq x \leq 4$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Suppose you want to estimate $\int_{1}^{4} f(x) \,dx$, with 3 rectangles. What are the midpoints of the subintervals?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $x_1 = 2, x_2 = 3, x_3 = 4$
+\choice $x_1 = \frac{1}{2}, x_2 = \frac{3}{2}, x_3 = \frac{5}{2}$
+\CorrectChoice $x_1 = \frac{3}{2}, x_2 = \frac{5}{2}, x_3 = \frac{7}{2}$
+\choice $x_1 = 1, x_2 = 2, x_3 = 3$
+\end{choices}
+\end{multicols}
+
+
+\question[1]
+
+Which of the following defines a definite integral?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice An antiderivative that produces a function with an arbitrary constant $C$.
+\choice The limit as $f(x)$ goes to infinity.
+\choice The derivative of the area function.
+\CorrectChoice An integral which is evaluated over a specific interval, and produces a constant value.
+\end{choices}
+\end{multicols}
+
+
+\question[1]
+The fundamental theorem of calculus (part 1) says: If $f$ is continuous on $[a, b]$, then the function $g$ defined by $g(x) = \int_{a}^{x} f(t) \,dt$, $a \leq x \leq b$, is continuous on $[a, b]$ and differentiable on $(a, b)$, and $g'(x) = f(x).$
+What does this mean in words?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $g'(x)$ exists on $[a, x]$.
+\CorrectChoice The derivative of the area function is equal to the integrand.
+\choice The derivative of $f(x)$ is equal to $F(b) - F(a)$.
+\choice $g(x)$ is only differentiable when $f(t)$ exists on $[a, b]$.
+\end{choices}
+\end{multicols}
+
+\newpage
+
+\question[1]
+
+The fundamental theorem of calculus (part 2) says: If $f(x)$ is continuous on $[a, b]$, then $\int_{a}^{b} f(x) \,dx = F(b) - F(a)$, where $F(x)$ is any antiderivative of $f(x)$.
+What does this mean in words?
+
+\begin{choices}
+\CorrectChoice If $F(x)$ is the anti-derivative of $f(x)$, then $\int_{a}^{b} f(x) \,dx$ is equal to $F(x)$ evaluated at $b$, subtracted by $F(x)$ evaluated at $a$.
+\choice The derivative of $f(x)$ is equal to $F(b) - F(a)$.
+\choice The derivative of the area function is equal to the integrand.
+\choice The derivative of $f(x)$ is equal to $F(x)$ evaluated at $b$, subtracted by the $F(x)$ evaluated at $a$.
+\end{choices}
+
+\spc
+
+\question[1]
+
+Suppose you have $\int_{-1}^{2} x^2 \,dx$ and $F(x) + C$ is the antiderivative of $f(x)$, where $C = 0$.
+Using the same notation as the Fundamental Theorem of Calculus, what is $F(b)$ and $F(a)$?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $F(b) = F(-1) = \frac{-1}{3}$
+\newline
+$F(a) = F(2) = \frac{8}{3}$
+\choice $F(b) = F(2) = \frac{4}{3}$
+\newline 
+$F(a) = F(-1) = \frac{-1}{3}$
+\CorrectChoice $F(b) = F(2) = \frac{8}{3}$ 
+\newline
+$F(a) = F(-1) = \frac{-1}{3}$
+\choice $F(b) = F(2) = \frac{8}{3}$
+\newline
+$F(a) = F(-1) = \frac{1}{3}$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Which of the below is equivalent to $\int_{1}^{2} x^3 + 2x + 3 \,dx$?
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\frac{39}{4}$
+\choice $\frac{x^4}{4} + x^2 + 3x \Big|_1^2$
+\choice $(\frac{2^4}{4} + 2^2 + 3(2)) - (\frac{1}{4} + 1 + 3)$
+\CorrectChoice A, B, and C.
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Evaluate $\int_{2}^{2} \sqrt{x} \,dx$.
+
+\begin{multicols}{2}
+\begin{choices}
+\CorrectChoice 0
+\choice $\frac{2^{5/2}}{3}$
+\choice Does not exist.
+\choice $\frac{2^{5/2}-2}{3}$
+\end{choices}
+\end{multicols}
+
+\spc
+
+\question[1]
+
+Evaluate $\int_{-1}^{2} \frac{1}{x^3} \,dx$.
+
+\begin{multicols}{2}
+\begin{choices}
+\choice $\frac{3}{8}$
+\CorrectChoice Does not exist
+\choice 0
+\choice $\frac{-3}{8}$
+\end{choices}
+\end{multicols}
+
+\end{questions}
+\end{document}
+
+the derivative of the area function is equal to the integrand

@@ -1,0 +1,220 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cF}{\mathcal{F}}
+
+\newcommand{\fK}{\mathfrak{K}}
+\newcommand{\fM}{\mathfrak{M}}
+
+\newcommand{\ga}{\left\langle}
+\newcommand{\da}{\right\rangle}
+\newcommand{\oa}{\left\lbrace}
+\newcommand{\fa}{\right\rbrace}
+\newcommand{\oc}{\left[}
+\newcommand{\fc}{\right]}
+\newcommand{\op}{\left(}
+\newcommand{\fp}{\right)}
+
+\newcommand{\ra}{\rightarrow}
+\newcommand{\Ra}{\Rightarrow}
+
+\renewcommand{\Re}{\mathrm{Re}\,}
+\renewcommand{\Im}{\mathrm{Im}\,}
+\newcommand{\Arg}{\mathrm{Arg}\,}
+\newcommand{\Arctan}{\mathrm{Arctan}\,}
+\newcommand{\sech}{\mathrm{sech}\,}
+\newcommand{\csch}{\mathrm{csch}\,}
+\newcommand{\Log}{\mathrm{Log}\,}
+\newcommand{\cis}{\mathrm{cis}\,}
+
+\newcommand{\ran}{\mathrm{ran}\,}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\Sp}{\mathrm{span}\,}
+\newcommand{\Inv}{\mathrm{Inv}\,}
+\newcommand\smallO{
+  \mathchoice
+    {{\scriptstyle\mathcal{O}}}% \displaystyle
+    {{\scriptstyle\mathcal{O}}}% \textstyle
+    {{\scriptscriptstyle\mathcal{O}}}% \scriptstyle
+    {\scalebox{.7}{$\scriptscriptstyle\mathcal{O}$}}%\scriptscriptstyle
+  }
+\newcommand{\HOL}{\mathrm{Hol}}
+\newcommand{\cl}{\mathrm{clos}}
+\newcommand{\ve}{\varepsilon}
+
+\DeclareMathOperator{\dom}{dom}
+
+%%%%%% Définitions Theorems and al.
+%\declaretheoremstyle[preheadhook = {\vskip0.2cm}, mdframed = {linewidth = 2pt, backgroundcolor = yellow}]{myThmstyle}
+%\declaretheoremstyle[preheadhook = {\vskip0.2cm}, postfoothook = {\vskip0.2cm}, mdframed = {linewidth = 1.5pt, backgroundcolor=green}]{myDefstyle}
+%\declaretheoremstyle[bodyfont = \normalfont , spaceabove = 0.1cm , spacebelow = 0.25cm, qed = $\blacktriangle$]{myRemstyle}
+
+%\declaretheorem[ style = myThmstyle, name=Th\'eor\`eme]{theorem}
+%\declaretheorem[style =myThmstyle, name=Proposition]{proposition}
+%\declaretheorem[style = myThmstyle, name = Corollaire]{corollary}
+%\declaretheorem[style = myThmstyle, name = Lemme]{lemma}
+%\declaretheorem[style = myThmstyle, name = Conjecture]{conjecture}
+
+%\declaretheorem[style = myDefstyle, name = D\'efinition]{definition}
+
+%\declaretheorem[style = myRemstyle, name = Remarque]{remark}
+%\declaretheorem[style = myRemstyle, name = Remarques]{remarks}
+
+\newtheorem{theorem}{Théorème}
+\newtheorem{corollary}{Corollaire}
+\newtheorem{lemma}{Lemme}
+\newtheorem{proposition}{Proposition}
+\newtheorem{conjecture}{Conjecture}
+
+\theoremstyle{definition}
+
+\newtheorem{definition}{Définition}[section]
+\newtheorem{example}{Exemple}[section]
+\newtheorem{remark}{\textcolor{red}{Remarque}}[section]
+\newtheorem{exer}{\textbf{Exercice}}[section]
+
+
+\tikzstyle{myboxT} = [draw=black, fill=black!0,line width = 1pt,
+    rectangle, rounded corners = 0pt, inner sep=8pt, inner ysep=8pt]
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Created by Pierre-O. Paris{\'e}\\
+	Worksheet 05 \hfill Fall 2022\\\vspace*{-0.7cm}
+	
+	\noindent\hrulefill
+	
+\vspace*{0.5cm}
+
+\noindent\makebox[\textwidth]{\textbf{Last name:}\enspace \hrulefill}
+\makebox[\textwidth]{\textbf{First name:}\enspace\hrulefill}
+\makebox[\textwidth]{\textbf{Section:}\enspace\hrulefill}
+
+\vspace*{0.25cm}
+\begin{center}
+\gradetable[h][questions]
+\end{center}
+\vspace*{0.25cm}
+
+{\bf Instructions:} You must answer all the questions below and give your solutions to the TA at the end of the recitation. Write your solutions directly on the worksheet. Late worksheet will not be accepted.
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\vspace*{0.5cm}
+
+\begin{questions}
+
+\question
+
+Compute the derivative of the following functions:
+	\begin{parts}
+	\part[5]
+	$f(x) = x^2 \sec (x)$.
+	\begin{solution}
+	{\color{red}
+	Using the product rule, we have
+		\begin{align*}
+		f' (x) = (x^2)' \sec (x) + x^2 (\sec (x))' &= 2x \sec (x) + x^2 \sec (x) \tan (x) \\
+		&= x \sec (x) \op 2 + x \tan (x) \fp .
+		\end{align*}
+	}
+	\end{solution}
+	
+	\part[5]
+	$f(x) = \displaystyle \frac{\sqrt{x^2 + x}}{\sin (x)}$.
+	\begin{solution}
+	{\color{red}
+	Using the quotient rule, we have
+		\begin{align*}
+		f' (x) = \frac{(\sqrt{x^2+ x})' \sin (x) - \sqrt{x^2 + x} (\sin (x))'}{\sin^2 (x)} .
+		\end{align*}
+	Now, we have
+		\begin{align*}
+		\frac{d}{dx} \op \sqrt{x^2 + x} \fp = \frac{1}{2 \sqrt{x^2 + x}} \frac{d}{dx} \op x^2 + x \fp = \frac{1}{2 \sqrt{x^2 + x}} (2x + 1) = \frac{2x + 1}{2 \sqrt{x^2 + x}} .
+		\end{align*}
+	Therefore, we get
+		\begin{align*}
+		f' (x) &= \frac{\frac{2x + 1}{2 \sqrt{x^2 + x}} \sin (x) - \cos (x) \sqrt{x^2 + x}}{\sin^2 (x)} \\
+		&= \frac{ (2x + 1) \sin (x) - 2 (x^2 + x) \cos (x)}{2 \sqrt{x^2 + x} \sin^2 (x)} .
+		\end{align*}
+	}
+	\end{solution}
+	\end{parts}
+	
+\newpage
+
+\phantom{2}
+
+\newpage
+
+\question[10]
+
+Isolate $y$ and find an expression for $y'$ if
+	$$
+	x^2 + y^2 = 1 .
+	$$
+	\begin{solution}
+	{\color{red}
+	We have
+		\begin{align*}
+		y^2 = 1 - x^2 \Ra y = \pm \sqrt{1 - x^2} .
+		\end{align*}
+	For the plus sign, we have
+		\begin{align*}
+		y' = \frac{d}{dx} \op \sqrt{1 - x^2} \fp = \frac{1}{2 \sqrt{1 - x^2}} \frac{d}{dx} \op 1 - x^2 \fp = \frac{1}{2 \sqrt{1 - x^2}} \op -2x \fp = - \frac{x}{\sqrt{1 - x^2}} .
+		\end{align*}
+	For the minus sign, we have
+		\begin{align*}
+		y' = \frac{d}{dx} \op - \sqrt{1 - x^2} \fp = - \frac{1}{2 \sqrt{1 - x^2}} \frac{d}{dx} \op 1 - x^2 \fp = - \frac{1}{2 \sqrt{1 - x^2}} (-2x) = \frac{x}{\sqrt{1 -x^2}} .
+		\end{align*}
+	}
+	\end{solution}
+
+\newpage
+
+\phantom{2}
+
+\end{questions}
+
+\end{document}

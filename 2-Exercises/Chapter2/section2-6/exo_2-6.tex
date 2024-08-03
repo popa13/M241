@@ -1,0 +1,49 @@
+\include{../../semesterTerm.tex}
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Pierre-Olivier Paris{\'e}\\
+	Solutions Section 2-6 \hfill \semester \\\vspace*{-1cm}
+	
+	\noindent\hrulefill
+	
+	\spc
+	
+	\exo{12}
+	\\
+	We suppose that $y = f(x)$. Set $y' = dy/dx$. We differentiate with respect to $x$ on each side of the equation:
+		\begin{align*}
+		- \sin (xy) (y + x y' ) = \cos (y) y'
+		\end{align*}			
+	and so
+		\begin{align*}
+		-y \sin (xy) - xy' \sin (xy) = y' \cos (y)
+		\end{align*}
+	and then
+		\begin{align*}
+		y' = -\frac{y \sin (xy)}{x \sin (xy) + \cos (y)} .
+		\end{align*}
+	
+	\spc
+	
+	\exo{32}
+	\\
+	We suppose that $y = f(x)$ and differentiate each side of the equation. We obtain
+		\begin{align*}
+		2y y' (y^2 - 4) + 2y^3 y' = 2x (x^2 - 5) + 2 x^3 .
+		\end{align*}
+	So, now we have to isolate $y'$. After distributing $y$ and $x$, we obtain
+		\begin{align*}
+		y' (2y^3 - 8y + 2y^3) = 2x^3 - 10x + 2x^3 .
+		\end{align*}
+	We then find
+		\begin{align*}
+		y' = \frac{x(2x^2 - 5)}{2y (y^2 - 2)}
+		\end{align*}
+	
+	The equation of the tangent line is $y + 2 = m (x - 0)$ where $m = y' (0)$. So, replacing $x = 0$ and $y = -2$ in the above equation for $y'$, we get $m = 0$. Thus, we obtain
+		\begin{align*}
+		y = -2 .
+		\end{align*}
+	
+\end{document}

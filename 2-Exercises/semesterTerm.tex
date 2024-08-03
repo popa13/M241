@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{lmodern}
+
+\usepackage{enumitem}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+%\usepackage{subfigure}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{multicol}
+
+\usepackage{comment}
+\usepackage{url}
+\usepackage{calc}
+\usepackage{subcaption}
+\usepackage[indent=0pt]{parskip}
+\usepackage{animate}
+
+\usepackage{array}
+\usepackage{blkarray,booktabs, bigstrut}
+\usepackage{bigints}
+
+\pgfplotsset{compat=1.16}
+
+% MATH commands
+\newcommand{\ga}{\left\langle}
+\newcommand{\da}{\right\rangle}
+\newcommand{\oa}{\left\lbrace}
+\newcommand{\fa}{\right\rbrace}
+\newcommand{\oc}{\left[}
+\newcommand{\fc}{\right]}
+\newcommand{\op}{\left(}
+\newcommand{\fp}{\right)}
+
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\bj}{\mathbf{j}}
+\newcommand{\bk}{\mathbf{k}}
+\newcommand{\bF}{\mathbf{F}}
+
+\newcommand{\mR}{\mathbb{R}}
+
+\newcommand{\ra}{\rightarrow}
+\newcommand{\Ra}{\Rightarrow}
+
+\newcommand{\sech}{\mathrm{sech}\,}
+\newcommand{\csch}{\mathrm{csch}\,}
+\newcommand{\curl}{\mathrm{curl}\,}
+\newcommand{\dive}{\mathrm{div}\,}
+
+\newcommand{\ve}{\varepsilon}
+\newcommand{\spc}{\vspace*{0.5cm}}
+
+\DeclareMathOperator{\Ran}{Ran}
+\DeclareMathOperator{\Dom}{Dom}
+
+\newcommand{\exo}[1]{\noindent\textcolor{red}{\fbox{\textbf{Problem {#1}}}\hrulefill}\\}
+\newcommand{\qu}[4]{\noindent\textcolor{#4}{\fbox{\textbf{Section {#1} | Problem {#2}}} \hrulefill{{\fbox{\textbf{{#3} Points}}}}\\}}
+
+\newcommand{\semester}{Spring 2023}
+
+\newcommand{\CVup}{%
+\begin{tikzpicture}
+\draw[black, <->, >=latex] (-0.33, 0.5) .. controls (-0.125, 0) and (0.125, 0) .. (0.33, 0.5);
+\end{tikzpicture}}
+
+\newcommand{\CVupInc}{%
+\begin{tikzpicture}
+\draw[black, ->, >=latex] (0,0) .. controls (0.2, 0) and (0.4, 0.2) .. (0.5, 0.5);
+\end{tikzpicture}}
+
+\newcommand{\CVupDec}{%
+\begin{tikzpicture}[rotate=270]
+\draw[black, ->, >=latex] (0,0) .. controls (0.2, 0) and (0.4, 0.2) .. (0.5, 0.5);
+\end{tikzpicture}}
+
+\newcommand{\CVdown}{%
+\begin{tikzpicture}
+\draw[black, <->, >=latex] (-0.33, -0.5) .. controls (-0.125, 0) and (0.125, 0) .. (0.33, -0.5);
+\end{tikzpicture}}
+
+\newcommand{\CVdownInc}{%
+\begin{tikzpicture}
+\draw[black, ->, >=latex] (-0.5, -0.5) .. controls (-0.5, -0.3) and (-0.5, -0.1) .. (0,0);
+\end{tikzpicture}}
+
+\newcommand{\CVdownDec}{%
+\begin{tikzpicture}[rotate=-90]
+\draw[black, ->, >=latex] (-0.5, -0.5) .. controls (-0.5, -0.3) and (-0.5, -0.1) .. (0,0);
+\end{tikzpicture}}

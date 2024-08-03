@@ -1,0 +1,77 @@
+\include{../../semesterTerm.tex}
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Pierre-Olivier Paris{\'e}\\
+	Solutions Section 3-8 \hfill \semester \\\vspace*{-1cm}
+	
+	\noindent\hrulefill
+	
+	\spc
+	
+	\exo{6}
+	\\
+	We set $f (x) = 2x^3 - 3x^2 + 2$. The derivative of the function is
+		\begin{align*}
+		f'(x) = 6x^2 - 6x .
+		\end{align*}		
+	Newton's algorithm gives
+		\begin{align*}
+		x_{n+1} = x_n - \frac{f (x_n)}{f'(x_n)} .
+		\end{align*}			
+		
+	We start we $x_1 = -1$. We have
+		\begin{align*}
+		f(x_1 ) = -3 \quad \text{ and } \quad f'(x_1) =  12 .
+		\end{align*}	
+	Therefore, we obtain
+		\begin{align*}
+		x_2 = -1 + \frac{3}{12} = -1 + \frac{1}{4} = -\frac{3}{4} .
+		\end{align*}
+		
+	We now use $x_2$ to obtain $x_3$. We have
+		\begin{align*}
+		f(x_2) = -0.53125 \quad \text{ and } \quad f'(x_2) =  63/8 .
+		\end{align*}
+	Therefore, we obtain
+		\begin{align*}
+		x_3 = -\frac{3}{4} + \frac{0.53125}{63/8} \approx -0.6825
+		\end{align*}				
+
+	\spc
+	
+	\exo{34}
+	\\
+	To find the maximum value, we will use the interval method. We have to find the critical numbers inside $(0, \pi )$. The derivative of $f$ is
+		\begin{align*}
+		f'(x) = \cos x - x \sin x .
+		\end{align*}
+	The derivative exists everywhere, so the critical numbers are the zero of $f'$. We will use Newton's method to find the zero of $f'$. If $x = 0$, then $f'(x) = 0$. But $x$ is not inside the interval $(0, \pi )$. We will search for another zero inside $(0, \pi )$. The Newton's method tells us that the critical number $c$ will be approximated by
+		\begin{align*}
+		x_{n-1} - f'(x_{n-1})/f''(x_{n-1})
+		\end{align*}
+	where $x_1$ is an initial guess within $(0, \pi )$. 
+	
+	Let $x_1 = \pi/2$. We have $f''(x) = -2\sin x - x\cos x$. So
+		\begin{align*}
+		c \approx x_{n-1} - \frac{\cos x_{n-1} - x_{n-1} \sin (x_{n-1})}{-2 \sin x_{n-1} - x_{n-1} \cos x_{n-1}} .
+		\end{align*}
+	Apprying Newton's method several times, we get the following approximations of $c$:
+	\begin{center}
+	\begin{tabular}{c|c}
+	Iteration & $x_n$ \\\hline
+	$2$ & 0.7853981633974483 \\
+	$3$ & 0.8624434632122491 \\
+	$4$ & 0.8603349794247831 \\
+	$5$ & 0.8603335890199867 \\
+	$6$ & 0.8603335890193797
+	\end{tabular}
+	\end{center}
+We see that, after the fifth iteration, the first six digits are stable. So $c \approx 0.860333$.
+
+Now, we have
+	\begin{align*}
+	\max f(x) = \max \{ f(0) , f(0.860333) , f(\pi ) \} = \max \{ 0 , 0.561096 , -3.141592 \} = 0.561096 .
+	\end{align*}
+	
+\end{document}

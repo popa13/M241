@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Non Intersecting Regions}{2}{section*.1}%
+\contentsline {section}{Intersecting Regions}{3}{section*.2}%
+\contentsline {section}{Regions Bounded By Functions of $y$}{5}{section*.3}%

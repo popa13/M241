@@ -1,0 +1,7 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Area Problem}{2}{section*.1}%
+\contentsline {subsection}{Divide and Conquer With the Right Endpoint Rule!}{3}{subsection*.3}%
+\contentsline {subsection}{Divide and Conquer With the Left Endpoint Rule!}{4}{subsection*.4}%
+\contentsline {subsection}{Sigma Notation}{5}{subsection*.5}%
+\contentsline {subsection}{Taking the Limit!}{6}{subsection*.6}%
+\contentsline {section}{The Distance Problem}{7}{section*.7}%

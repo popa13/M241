@@ -1,0 +1,229 @@
+\documentclass[addpoints, 12pt]{exam}%, answers]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lmodern}
+\usepackage{arydshln}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{enumitem}
+
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{thmtools}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{pifont}
+
+% MATH commands
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bD}{\mathbb{D}}
+
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cF}{\mathcal{F}}
+
+\newcommand{\fK}{\mathfrak{K}}
+\newcommand{\fM}{\mathfrak{M}}
+
+\newcommand{\ga}{\left\langle}
+\newcommand{\da}{\right\rangle}
+\newcommand{\oa}{\left\lbrace}
+\newcommand{\fa}{\right\rbrace}
+\newcommand{\oc}{\left[}
+\newcommand{\fc}{\right]}
+\newcommand{\op}{\left(}
+\newcommand{\fp}{\right)}
+
+\newcommand{\ra}{\rightarrow}
+\newcommand{\Ra}{\Rightarrow}
+
+\renewcommand{\Re}{\mathrm{Re}\,}
+\renewcommand{\Im}{\mathrm{Im}\,}
+\newcommand{\Arg}{\mathrm{Arg}\,}
+\newcommand{\Arctan}{\mathrm{Arctan}\,}
+\newcommand{\sech}{\mathrm{sech}\,}
+\newcommand{\csch}{\mathrm{csch}\,}
+\newcommand{\Log}{\mathrm{Log}\,}
+\newcommand{\cis}{\mathrm{cis}\,}
+
+\newcommand{\ran}{\mathrm{ran}\,}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\Sp}{\mathrm{span}\,}
+\newcommand{\Inv}{\mathrm{Inv}\,}
+\newcommand\smallO{
+  \mathchoice
+    {{\scriptstyle\mathcal{O}}}% \displaystyle
+    {{\scriptstyle\mathcal{O}}}% \textstyle
+    {{\scriptscriptstyle\mathcal{O}}}% \scriptstyle
+    {\scalebox{.7}{$\scriptscriptstyle\mathcal{O}$}}%\scriptscriptstyle
+  }
+\newcommand{\HOL}{\mathrm{Hol}}
+\newcommand{\cl}{\mathrm{clos}}
+\newcommand{\ve}{\varepsilon}
+
+\DeclareMathOperator{\dom}{dom}
+
+%%%%%% Définitions Theorems and al.
+%\declaretheoremstyle[preheadhook = {\vskip0.2cm}, mdframed = {linewidth = 2pt, backgroundcolor = yellow}]{myThmstyle}
+%\declaretheoremstyle[preheadhook = {\vskip0.2cm}, postfoothook = {\vskip0.2cm}, mdframed = {linewidth = 1.5pt, backgroundcolor=green}]{myDefstyle}
+%\declaretheoremstyle[bodyfont = \normalfont , spaceabove = 0.1cm , spacebelow = 0.25cm, qed = $\blacktriangle$]{myRemstyle}
+
+%\declaretheorem[ style = myThmstyle, name=Th\'eor\`eme]{theorem}
+%\declaretheorem[style =myThmstyle, name=Proposition]{proposition}
+%\declaretheorem[style = myThmstyle, name = Corollaire]{corollary}
+%\declaretheorem[style = myThmstyle, name = Lemme]{lemma}
+%\declaretheorem[style = myThmstyle, name = Conjecture]{conjecture}
+
+%\declaretheorem[style = myDefstyle, name = D\'efinition]{definition}
+
+%\declaretheorem[style = myRemstyle, name = Remarque]{remark}
+%\declaretheorem[style = myRemstyle, name = Remarques]{remarks}
+
+\newtheorem{theorem}{Théorème}
+\newtheorem{corollary}{Corollaire}
+\newtheorem{lemma}{Lemme}
+\newtheorem{proposition}{Proposition}
+\newtheorem{conjecture}{Conjecture}
+
+\theoremstyle{definition}
+
+\newtheorem{definition}{Définition}[section]
+\newtheorem{example}{Exemple}[section]
+\newtheorem{remark}{\textcolor{red}{Remarque}}[section]
+\newtheorem{exer}{\textbf{Exercice}}[section]
+
+
+\tikzstyle{myboxT} = [draw=black, fill=black!0,line width = 1pt,
+    rectangle, rounded corners = 0pt, inner sep=8pt, inner ysep=8pt]
+
+\begin{document}
+	\noindent \hrulefill \\
+	MATH-241 \hfill Created by Pierre-O. Paris{\'e}\\
+	Worksheet 03 \hfill Fall 2022\\\vspace*{-0.7cm}
+	
+	\noindent\hrulefill
+	
+\vspace*{0.5cm}
+
+\noindent\makebox[\textwidth]{\textbf{Last name:}\enspace \hrulefill}
+\makebox[\textwidth]{\textbf{First name:}\enspace\hrulefill}
+\makebox[\textwidth]{\textbf{Section:}\enspace\hrulefill}
+
+\vspace*{0.25cm}
+\begin{center}
+\gradetable[h][questions]
+\end{center}
+\vspace*{0.25cm}
+
+{\bf Instructions:} You must answer all the questions below and give your solutions to the TA at the end of the recitation. Write your solutions directly on the worksheet. Late worksheet will not be accepted.
+
+\qformat{\rule{0.3\textwidth}{.4pt} \begin{large}{\textsc{Question}} \thequestion \end{large} \hspace*{0.2cm} \hrulefill \hspace*{0.1cm} \textbf{(\totalpoints\hspace*{0.1cm} pts)}}
+
+\vspace*{0.5cm}
+
+\begin{questions}
+
+\question
+
+Find the value of the following limit. If the limit doesn't exist, explain why.
+	\begin{parts}
+	\part[5]
+	$\displaystyle\lim_{x \ra -2} \frac{2 - |x|}{2 + x}$.
+	\begin{solution}
+	{\color{red}
+	From the left:
+		\begin{align*}
+		\lim_{x \ra -2^-} \frac{2 - |x|}{2 + x} = \lim_{x \ra -2^-} \frac{2 + x}{2 + x} = \lim_{x \ra -2^-} 1 = 1.
+		\end{align*}
+	From the right:
+		\begin{align*}
+		\lim_{x \ra -2^+} \frac{2 - |x|}{2 + x} = \lim_{x \ra -2^+} \frac{2 + x}{2 + x} = \lim_{x \ra -2^+} 1 = 1 .
+		\end{align*}
+	In the limit from the right, we have $|x| = -x$ because when $x \ra -2^+$, $x$ is negative. Therefore, the limit is $1$ because the limit from the right and from the left is the same and is $1$.}
+	\end{solution}
+	
+	\part[5]
+	$\displaystyle \lim_{x \ra 0} \sqrt{x^4 + x^2} \sin \op \frac{\pi}{x} \fp$.
+	\begin{solution}
+	{\color{red}
+	Since $\lim_{x \ra 0} \sin \op \pi / x \fp$ doesn't exist, we can't use the product use. We will use instead the Squeeze Theorem. We know that, for $x \neq 0$,
+		\begin{align*}
+		-1 \leq \sin (\pi / x ) \leq 1
+		\end{align*}
+	and since $\sqrt{x^4 + x^2}$ is always positive, we find that
+		\begin{align*}
+		-\sqrt{x^4 + x^2} \leq \sqrt{x^4 + x^2} \sin (\pi /x ) \leq \sqrt{x^4 + x^2} .
+		\end{align*}
+		
+	Now, we have
+		\begin{align*}
+		\lim_{x \ra 0} - \sqrt{x^4 + x^2} = 0 = \lim_{x \ra 0} \sqrt{x^4 + x^2} .
+		\end{align*}
+	Therefore, by the Squeeze Theorem, we conclude that
+		\begin{align*}
+		\lim_{x \ra 0} \sqrt{x^2 + x} \sin \op \frac{\pi}{x} \fp = 0 .
+		\end{align*}}
+	\end{solution}
+	\end{parts}
+	
+\newpage
+
+\phantom{2}
+
+\newpage
+
+\question
+
+Say if the function in the limit is continuous at the point $a$. Then use this information to find the following limits.
+
+	\begin{parts}
+	\part[5]
+	$a = 0$ and $\displaystyle \lim_{x \ra 0} \cos (x)$.
+	\begin{solution}
+	{\color{red}
+	The domain of $\cos (x)$ is $(-\infty , \infty )$. Since this is a trigonometric function, $\cos (x)$ is continuous at any point of its domain and in particular at $a = 0$. Therefore, we have that
+		\begin{align*}
+		\lim_{x \ra 0} \cos (x) = \cos (0) = 1 .
+		\end{align*}}
+	\end{solution}
+	
+	\part[5]
+	$a = \pi/4$ and $\displaystyle\lim_{x \ra \pi/4} x^2 \tan (x)$.
+	\begin{solution}
+	{\color{red}
+	The domain of $x^2$ is $(-\infty , \infty )$ and the domain of $\tan (x)$ is $(-\infty , \infty )$ except the points $\ldots , -3\pi/2 , -\pi/2 , \pi/2 , 3\pi/2 , \ldots$. Therefore, the domain of $x^2 \tan (x)$ is $(-\infty , \infty )$ except except the points $\ldots , -3\pi/2 , -\pi/2 , \pi/2 , 3\pi/2 , \ldots$.
+	
+	Now, $x^2$ is continuous on its domain, so in particular at $ a= \pi/4$. The function $\tan (x)$ is continuous on its domain, so in particular at $a = \pi/4$. Since the product of two continuous functions is continuous, we conclude that $x^2 \tan (x)$ is continuous at $a = \pi / 4$. Using the condition defining the continuity, we then have
+		\begin{align*}
+		\lim_{x \ra \pi/4} x^2 \tan (x) = (\pi/4)^2 \tan (\pi/4) = \pi^2/ 16 .
+		\end{align*}}
+	\end{solution}
+	
+	\end{parts}
+
+
+\end{questions}
+
+\end{document}
