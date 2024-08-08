@@ -63,7 +63,7 @@ Here is a list of links that was mentioned in the text and some others that I fo
 - Desmos to plot graphs of functions: [https://www.desmos.com/](https://www.desmos.com/)
 - Desmos' YouTube Channel (to learn how to use the tools from Desmos): [https://www.youtube.com/@Desmos](https://www.youtube.com/@Desmos).
 
-# Contat Info
+# Contact Info
 You can reach me by email parisepierreolivier@gmail.com if you have any questions or if you would like to add your own contributions.
 Best of luck!
 
