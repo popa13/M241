@@ -38,7 +38,7 @@ The Final Prep webpage contains solutions to finals from previous years. I also 
 ## How I taught the class
 I would start off the semester by handing out sections 1.1, 1.2, and 1.3 to the students. I will ask them to complete that on their own in class and ask them to submit their completed work for the first homework. 
 
-Starting on the second week, I would start lecturing using the lecture notes templates provided in the Lecture Notes webpage. The students were responsible of printing or downloading the lecture notes template from the course website. In class, I would have a wacom tablet connected to my laptop and I would fill in the lecture notes while I lecture. Those notes were projected with a projector, so that the students can see all my notes during lecture. 
+Starting on the second week, I would start lecturing using the lecture notes templates provided in the Lecture Notes webpage. The students were responsible of printing or downloading the lecture notes template from the course website. In class, I would have a wacom tablet connected to my laptop and I would fill in the lecture notes while I lecture using the software [Xournal++](https://xournalpp.github.io/). Those notes were projected with a projector, so that the students can see all my notes during lecture. 
 
 Every week, there was a recitation lead by a teaching assistant. During these recitations, the students were asked to work on the exercises. I also asked the teaching assistant to take attendance. I used this to give extra points to students with a good attendance rate. At the end of the recitation, we released the homework assignment on the LMS which was due for the next Monday. To see the homework, check out the Homework file in this repository. Unfortunately, there are not on the course website.
 
@@ -54,6 +54,14 @@ All the pictures used in the lecture notes are from the main textbook used at UH
 If you want to download all the files from this repository as a .zip on your computer, follow the steps illustrated in the picutre below.
 
 ![Step to download file](How-To-Download_as-Zipped.png)
+
+Here is a list of links that was mentioned in the text and some others that I found important:
+
+- 3blue1brown video: [https://www.youtube.com/watch?v=-RdOwhmqP5s](https://www.youtube.com/watch?v=-RdOwhmqP5s).
+- Xournal++: [https://xournalpp.github.io/](https://xournalpp.github.io/).
+- Wacom tablet (medium): [https://www.wacom.com/en-ca/products/pen-tablets/wacom-intuos](https://www.wacom.com/en-ca/products/pen-tablets/wacom-intuos).
+- Desmos to plot graphs of functions: [https://www.desmos.com/](https://www.desmos.com/)
+- Desmos' YouTube Channel (to learn how to use the tools from Desmos): [https://www.youtube.com/@Desmos](https://www.youtube.com/@Desmos).
 
 # Contat Info
 You can reach me by email parisepierreolivier@gmail.com if you have any questions or if you would like to add your own contributions.
